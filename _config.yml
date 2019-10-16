@@ -1,23 +1,25 @@
-title: Your Title
+title: "JFPC 2020 et JIAF 2020"
+date: "Du 2 au 5 juin"
+location: "Nice"
 description: > # this means to ignore newlines until "baseurl:"
-  Your description
+    "JFPC 2020 et JIAF 2020 du 2 au 5 juin à Nice"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "Your-Link.github.io" # the base hostname & protocol for your site
-# Build settings
-markdown: kramdown
+
+sidebar:
+  - title: "Soumission du résumé"
+    text: "TBA"
+  - title: "Soumission de l'article"
+    text: "TBA"
 
 facebook:
   app_id: 
 
-logo: "../css/2016_style/img/icon-large.png"
+logo: "⁨assets⁩/img/favicon.png"
 
-social: 
-  name: Your Facebook Page
-  link: "https://www.facebook.com/"
+language: 'fr'
 
-google_site_verification: googleXXXXXXXXXXXXXXXX.html
-
-include: ['_2016_pages', '_2017_pages']
+include: ['_pages']
 
 plugins:
   - jekyll-sitemap
@@ -33,3 +35,15 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+sass:
+  sass_dir: _sass
+  style: :expanded
+  line_numbers: true
+  sourcemap: true
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+    - INSTALL.md

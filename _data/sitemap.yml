@@ -1,0 +1,29 @@
+- inverted: 
+  img: icon-about.jpeg
+  name: Thématique, Vision, Mission
+  info: Plus de détails sur notre thématique, vision et mission
+  link: /about
+
+- inverted: timeline-inverted
+  img: icon-agenda.jpeg
+  name: Programme
+  info: Découvrez le programme
+  link: /agenda
+
+- inverted: 
+  img: icon-team.jpeg
+  name: Comités
+  info: 
+  link: /team
+
+- inverted: timeline-inverted
+  img: icon-venue.jpeg
+  name: Nice
+  info: 
+  link: /venue
+
+- inverted: 
+  img: booklet-icon.png
+  name: Event Booklet
+  info: View or Download our event booklet
+  link: /booklet

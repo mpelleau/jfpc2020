@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  {% include _home.html %}
+
+
+    <body id="page-top" class="index">
+
+    {% include _navigation_home.html %}
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">{{ site.title }}<br></div>
+                <div class="intro-lead-in">{{ site.date }}</div>
+                <div class="intro-lead-in">{{ site.location }}</div>
+                <!-- a href="#intro" class="page-scroll btn btn-xl">Tell Me More</a -->
+            </div>
+        </div>
+    </header>
+
+    {% include _speakers.html %}
+    {% include _plan.html %}
+    {% include _sponsors.html %}
+    {% include _footer.html %}
+    {% include _speakers_info.html %}
+    {% include js %}
+
+    </body>
+</html>

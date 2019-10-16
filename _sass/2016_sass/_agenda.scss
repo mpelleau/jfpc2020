@@ -1,4 +1,4 @@
-.agenda {
+table, .agenda {
   table-layout: fixed;
   width: 100%;
   white-space: pre-wrap;
@@ -17,7 +17,7 @@
      width: 60%;
   }
   th, td {
-    border: 1px solid #00283c;
+    border: 1px solid #00283c !important;
     font-size: 120%;
   }
   th {
