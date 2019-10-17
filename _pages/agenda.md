@@ -6,12 +6,16 @@ title: Programme
 published: true
 ---
 
-{% for agenda in site.data.programme %}
-## {{ agenda.day }}
+Le programme détaillé pour les JFPC se trouve [ici]({{ site.baseurl }}/jfpc/programme), et celui pour les JIAF est [ici]({{ site.baseurl }}/jiaf/programme)
 
-| Horaire | Activités        |
-|---------+------------------|
-{% for session in agenda.sessions -%}
-| {{ session.time }} | {{ session.info}} |
-{% endfor -%}
-{% endfor -%}
+## Dates importantes
+
+### Pour les JFPC
+{% for date in site.data.dates_jfpc -%}
+  - {{ date.title }} {% if date.info -%} <span style="font-size:0.75em;">{{ date.info }} </span>{% endif -%} : {{ date.date }}
+{% endfor %}
+
+### Pour les JIAF
+{% for date in site.data.dates_jiaf -%}
+  - {{ date.title }} {% if date.info -%} <span style="font-size:0.75em;">{{ date.info }} </span>{% endif -%} : {{ date.date }}
+{% endfor %}
