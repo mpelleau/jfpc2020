@@ -19,7 +19,7 @@ qui va générer le site (dans le dossier `_site` par défaut) et faire un serve
 
 Il y a certaines pages communes :
   - la page d'accueil `_layout/home.html`,
-  - le programme général avec les dates importante `_pages/agenda.md`,
+  - le programme général avec les dates importantes `_pages/agenda.md`,
   - les présidences des différents comités `_pages/comites.md`,
   - les informations et tarifs pour les inscirptions `_pages/inscription.md`,
   - les sponsors `_pages/sponsors.md`,
@@ -34,14 +34,14 @@ Pour chacune des conférences, il y a :
 
 Certaines de ces pages ou parties de page sont générées automatiquement à partir de fichiers de données.
 Les fichiers de données se trouvent dans le dossier `_data`.
-  - `comites_jfpc.yml` et `comites_jiaf.yml` contient les membres de chacun des comités ;
-  - `dates_jfpc.yml` et `dates_jiaf.yml` contient les dates importantes ;
-  - `editions_jfpc.yml` et `editions_jiaf.yml` contient des liens vers les précédentes éditions ;
-  - `navigation.yml`, `navigation_jfpc.yml` et `navigation_jiaf.yml` contient les éléments que l'on ;souhaite voir apparaître dans la barre de navigation pour respectivement, les pages communes, les pages pour les JFPC et les pages pour les JIAF ;
-  - `programme_jfpc.yml` et `programme_jiaf.yml` contient le programme détaillé ;
-  - `sitemap.yml` contient les éléments de la catégorie _plus d'infos_ de la page d'accueil ;
-  - `speakers.yml` contient des informations sur les conférenciers invités qui figureront sur la page d'accueil ;
-  - `sponsors.yml` contient des informations sur les sponsors.
+  - `comites_jfpc.yml` et `comites_jiaf.yml` contiennent les membres de chacun des comités ;
+  - `dates_jfpc.yml` et `dates_jiaf.yml` contiennent les dates importantes ;
+  - `editions_jfpc.yml` et `editions_jiaf.yml` contiennent des liens vers les précédentes éditions ;
+  - `navigation.yml`, `navigation_jfpc.yml` et `navigation_jiaf.yml` contiennent les éléments que l'on souhaite voir apparaître dans la barre de navigation pour respectivement, les pages communes, les pages pour les JFPC et les pages pour les JIAF ;
+  - `programme_jfpc.yml` et `programme_jiaf.yml` contiennent les programme détaillés ;
+  - `sitemap.yml` contiennent les éléments de la catégorie _plus d'infos_ de la page d'accueil ;
+  - `speakers.yml` contiennent des informations sur les conférenciers invités qui figureront sur la page d'accueil ;
+  - `sponsors.yml` contiennent des informations sur les sponsors.
 
 
 | Page                        | Générée totalement ou en partie à partir de                     |
