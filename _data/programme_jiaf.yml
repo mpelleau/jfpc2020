@@ -1,0 +1,35 @@
+- day: Mardi 2 juin
+  sessions:
+  - time: 18h-19h
+    info: Pot de bienvenue # "<u>Sessions</u><br><b>Name</b><br><i>Position</i><br>Topic"
+
+- day: Mercredi 3 juin
+  sessions:
+  - time: 8h30-9h
+    info: Ouverture des journées 
+  - time: 9h-11h 
+    info: Sessions
+  - time: 11h-12h
+    info: Exposé invité
+  - time: 14h–18h 
+    info: Sessions
+
+- day: Jeudi 4 juin
+  sessions:
+  - time: 9h-11h
+    info: Sessions
+  - time: 11h-12h
+    info: Exposé invité
+  - time: 14h-18h
+    info: Sessions
+  - time: 20h-23h
+    info: Gala
+
+- day: Vendredi 5 juin
+  sessions:
+  - time: 9h-11h
+    info: Sessions
+  - time: 11h-12h
+    info: Exposé invité
+  - time: 12h-14h
+    info: Panier repas

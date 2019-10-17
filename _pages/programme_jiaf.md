@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: page_jiaf
 show_meta: false
-permalink: /agenda
-title: Programme
+permalink: jiaf/programme
+title: Programme des JIAF
 published: true
 ---
 
-{% for agenda in site.data.programme %}
+{% for agenda in site.data.programme_jiaf %}
 ## {{ agenda.day }}
 
 | Horaire | Activités        |

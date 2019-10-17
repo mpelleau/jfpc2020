@@ -1,0 +1,32 @@
+- title: "Soumission"
+  url: "/jfpc/soumission/"
+  side: left
+
+- title: "Programme"
+  url: "/jfpc/programme/"
+  side: left
+
+- title: "Précédentes éditions"
+  url: "/jfpc/editions/"
+  side: left
+
+- title: "Comités"
+  url: "/jfpc/comites/"
+  side: left
+
+
+- title: "JIAF"
+  url: "/jiaf/"
+  side: right
+
+- title: "Inscription"
+  url: "/inscription/"
+  side: right
+
+- title: "Nice"
+  url: "/nice/"
+  side: right
+
+- title: "Soutiens"
+  url: "/sponsors/"
+  side: right

@@ -1,5 +1,5 @@
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-default-color navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
@@ -18,7 +18,7 @@
                 <li class="hidden">
                     <a href="/"></a>
                 </li>
-                {% for link in site.data.navigation %}
+                {% for link in site.data.navigation_jfpc %}
                     {% if link.url contains 'http' %}
                         {% assign domain = '' %}
                     {% elsif link.url == '#' %}
@@ -36,7 +36,7 @@
                 <li class="hidden">
                     <a href="/"></a>
                 </li>
-                {% for link in site.data.navigation %}
+                {% for link in site.data.navigation_jfpc %}
                     {% if link.url contains 'http' %}
                         {% assign domain = '' %}
                     {% elsif link.url == '#' %}
@@ -52,7 +52,7 @@
             </ul>
         </div>
         <!-- /.navbar-collapse -->
-    </div>
+    </div> 
     <!-- /.container-fluid -->
-</nav>
+</nav> 
 <!-- /.navbar -->

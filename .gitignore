@@ -4,10 +4,5 @@ _site/
 .jekyll-cache/
 .DS_Store
 Gemfile.lock
-_2016_pages/
-_2017_pages/
-_data/twenty_16/
-_data/twenty_17/
-css/2016_style/
-_layouts/20*
-_includes/20*
+_old/
+_images/

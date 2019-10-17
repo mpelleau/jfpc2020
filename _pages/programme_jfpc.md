@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: page_jfpc
 show_meta: false
-permalink: /agenda
-title: Programme
+permalink: jfpc/programme
+title: Programme des JFPC
 published: true
 ---
 
-{% for agenda in site.data.programme %}
+{% for agenda in site.data.programme_jfpc %}
 ## {{ agenda.day }}
 
 | Horaire | Activités        |

@@ -1,33 +1,21 @@
 
 - title: "JFPC"
   url: "/jfpc/"
-  dropdown:
-  - title: "Soumission"
-    url: "/jfpc/soumission/"
-  - title: "Programme"
-    url: "/jfpc/programme/"
-  - title: "Inscription"
-    url: "/jfpc/inscription/"
+  side: right
   
 - title: "JIAF"
   url: "/jiaf/"
-  dropdown:
-  - title: "Soumission"
-    url: "/jiaf/soumission/"
-  - title: "Programme"
-    url: "/jiaf/programme/"
-  - title: "Inscription"
-    url: "/jiaf/inscription/"
+  side: right
+
+- title: "Inscription"
+  url: "/inscription/"
+  side: right
 
 - title: "Nice"
   url: "/nice/"
-
-- title: "Comités"
-  url: "/comites/"
+  side: right
 
 - title: "Soutiens"
   url: "/sponsors/"
-
-- title: "Précédentes éditions"
-  url: "/editions/"
+  side: right
 

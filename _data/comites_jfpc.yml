@@ -1,0 +1,30 @@
+- type: "d'organisation"
+  presidence:
+    - name: Arnaud Malapert
+      institution: Université Côte d'Azur
+      website: http://i3s.unice.fr/~malapert/
+      img: TBD.jpg
+      thumbnail: TBD.jpg
+    - name: Marie Pelleau
+      institution: Université Côte d'Azur
+      website: http://i3s.unice.fr/~mpelleau/
+      img: TBD.jpg
+      thumbnail: TBD.jpg
+  autre:
+    - name: Name
+      institution: Institution
+      img: TBD.jpg
+      thumbnail: TBD.jpg
+
+- type: "scientifique"
+  presidence:
+    - name: Philippe Vismara
+      institution: Montpellier SupAgro
+      website: http://www.lirmm.fr/~vismara/accueil.php
+      img: TBD.jpg
+      thumbnail: TBD.jpg
+  autre:
+    - name: Name
+      institution: Institution
+      img: TBD.jpg
+      thumbnail: TBD.jpg
