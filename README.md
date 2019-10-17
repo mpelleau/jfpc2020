@@ -13,7 +13,7 @@ Pour générer le site il faut faire
 ```
 bundle exec jekyll serve
 ```
-qui va généré le site (dans le dossier `_site` par défaut) et faire un serveur local afin de pouvoir voir le site à l'adresse [http://localhost:4000](http://localhost:4000).
+qui va générer le site (dans le dossier `_site` par défaut) et faire un serveur local afin de pouvoir voir le site à l'adresse [http://localhost:4000](http://localhost:4000).
 
 ## Description des fichiers
 
@@ -39,7 +39,7 @@ Les fichiers de données se trouvent dans le dossier `_data`.
 
 
 | Page                       | Générée totalement ou en partie à partir de                     |
-|----------------------------+-----------------------------------------------------------------|
+|----------------------------|-----------------------------------------------------------------|
 | `_pages/home.md`           | `_data/sitemap.yml`, `_data/speakers.yml`, `_data/sponsors.yml` |
 | `_pages/agenda.md`         | `_data/dates_jfpc.yml`, `_data/dates_jiaf.yml`                  |
 | `_pages/comites.md`        | `_data/comites_jfpc.yml`, `_data/comites_jiaf.yml`              |
