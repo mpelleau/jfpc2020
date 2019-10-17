@@ -1,3 +1,14 @@
+- title: "JFPC"
+  url: "/jfpc/"
+  side: lleft
+  class: 
+
+- title: "JIAF"
+  url: "/jiaf/"
+  side: lleft
+  class: active
+
+
 - title: "Soumission"
   url: "/jfpc/soumission/"
   side: left
@@ -14,11 +25,7 @@
   url: "/jfpc/comites/"
   side: left
 
-
-- title: "JIAF"
-  url: "/jiaf/"
-  side: right
-
+  
 - title: "Inscription"
   url: "/inscription/"
   side: right

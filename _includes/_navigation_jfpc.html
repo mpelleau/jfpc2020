@@ -3,6 +3,21 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
+            {% for link in site.data.navigation_jfpc %}
+                {% if link.url contains 'http' %}
+                    {% assign domain = '' %}
+                {% elsif link.url == '#' %}
+                    {% assign domain = site.baseurl | append:"/" %}
+                {% else %}
+                    {% assign domain = site.url | append:site.baseurl %}
+                {% endif %}
+
+                {% if link.side == 'lleft' %}
+                    <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div class="navbar-header page-scroll">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
