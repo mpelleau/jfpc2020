@@ -2,8 +2,8 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            {% for link in site.data.navigation_jfpc %}
+        <div class="navbar-header page-scroll" style="margin:5px 30px 0px 0px; font-size:110%; font-weight:bold">
+                {% for link in site.data.navigation_jfpc %}
                 {% if link.url contains 'http' %}
                     {% assign domain = '' %}
                 {% elsif link.url == '#' %}

@@ -54,7 +54,7 @@ Les fichiers de données se trouvent dans le dossier `_data`.
 | `_pages/programme_jiaf.md`  | `_data/programme_jiaf.yml`                                      |
 | `_pages/comites_jfpc.md`    | `_data/comites_jfpc.yml`                                        |
 | `_pages/comites_jiaf.md`    | `_data/comites_jiaf.yml`                                        |
-| `_pages/editions_jfpc.md`   | `_data/editions_jfpc.yml`                                      |
-| `_pages/editions_jiaf.md`   | `_data/editions_jiaf.yml`                                      |
-| `_pages/soumission_jfpc.md` | `_data/dates_jfpc.yml`                                      |
-| `_pages/soumission_jiaf.md` | `_data/dates_jiaf.yml`                                      |
+| `_pages/editions_jfpc.md`   | `_data/editions_jfpc.yml`                                       |
+| `_pages/editions_jiaf.md`   | `_data/editions_jiaf.yml`                                       |
+| `_pages/soumission_jfpc.md` | `_data/dates_jfpc.yml`                                          |
+| `_pages/soumission_jiaf.md` | `_data/dates_jiaf.yml`                                          |

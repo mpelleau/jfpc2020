@@ -1,3 +1,5 @@
+@import "colors";
+
 table, .agenda {
   table-layout: fixed;
   width: 100%;
@@ -29,11 +31,11 @@ table, .agenda {
     text-align: center;
     font-size: 110%;
     a {
-        color: #019fc2;
+        color: $primary-color;
         text-decoration: none;
     }
     b {
-        color: #019fc2;
+        color: $primary-color;
     }
   }
   td + td {
