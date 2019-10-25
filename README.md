@@ -39,9 +39,9 @@ Les fichiers de données se trouvent dans le dossier `_data`.
   - `editions_jfpc.yml` et `editions_jiaf.yml` contiennent des liens vers les précédentes éditions ;
   - `navigation.yml`, `navigation_jfpc.yml` et `navigation_jiaf.yml` contiennent les éléments que l'on souhaite voir apparaître dans la barre de navigation pour respectivement, les pages communes, les pages pour les JFPC et les pages pour les JIAF ;
   - `programme_jfpc.yml` et `programme_jiaf.yml` contiennent les programme détaillés ;
-  - `sitemap.yml` contiennent les éléments de la catégorie _plus d'infos_ de la page d'accueil ;
-  - `speakers.yml` contiennent des informations sur les conférenciers invités qui figureront sur la page d'accueil ;
-  - `sponsors.yml` contiennent des informations sur les sponsors.
+  - `sitemap.yml` contient les éléments de la catégorie _plus d'infos_ de la page d'accueil ;
+  - `speakers.yml` contient des informations sur les conférenciers invités qui figureront sur la page d'accueil ;
+  - `sponsors.yml` contient des informations sur les sponsors.
 
 
 | Page                        | Générée totalement ou en partie à partir de                     |
