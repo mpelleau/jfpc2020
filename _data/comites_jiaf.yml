@@ -3,27 +3,20 @@
     - name: Célia da Costa Pereira
       institution: Université Côte d'Azur
       website: http://www.i3s.unice.fr/~cpereira/
-      img: TBD.jpg
-      thumbnail: TBD.jpg
     - name: Andrea Tettamanzi
       institution: Université Côte d'Azur
       website: http://www.i3s.unice.fr/~tettaman/
-      img: TBD.jpg
-      thumbnail: TBD.jpg
   autre:
     - name: Name
       institution: Institution
-      img: TBD.jpg
-      thumbnail: TBD.jpg
+      website: 
 
 - type: "scientifique"
   presidence:
     - name: Name
       institution: Institution
-      img: TBD.jpg
-      thumbnail: TBD.jpg
+      website: 
   autre:
     - name: Name
       institution: Institution
-      img: TBD.jpg
-      thumbnail: TBD.jpg
+      website: 
