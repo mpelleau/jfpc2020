@@ -22,7 +22,4 @@ L'archive des « Consignes aux auteurs » contient la classe LaTeX jfpc ainsi qu
 
 # Dates importantes
 
-
-{% for date in site.data.dates_jfpc -%}
-  - {{ date.title }} {% if date.info -%} <span style="font-size:0.75em;">{{ date.info }} </span>{% endif -%} : {{ date.date }}
-{% endfor %}
+{% include list_dates dates = site.data.dates_jfpc %}

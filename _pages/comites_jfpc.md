@@ -10,11 +10,9 @@ published: true
 ## Comité {{ comite.type }}
 
 ### Présidence
-{% assign thecomite = comite.presidence %}
-{% include _list_members.md %}
+{% include list_members members = comite.presidence %}
 
 ### Autre Membres
-{% assign thecomite = comite.autre %}
-{% include _list_members.md %}
+{% include list_members members = comite.autre %}
 
 {% endfor %}

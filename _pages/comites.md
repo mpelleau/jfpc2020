@@ -11,8 +11,7 @@ published: true
 {% for comite in site.data.comites_jfpc %}
 ### Comité {{ comite.type }}
 
-{% assign thecomite = comite.presidence %}
-{% include _list_members.md %}
+{% include list_members members = comite.presidence %}
 {% endfor %}
 
 ## JIAF
@@ -20,8 +19,7 @@ published: true
 {% for comite in site.data.comites_jiaf %}
 ### Comité {{ comite.type }}
 
-{% assign thecomite = comite.presidence %}
-{% include _list_members.md %}
+{% include list_members members = comite.presidence %}
 {% endfor %}
 
 Les comités détaillés pour les JFPC se trouvent [ici]({{ site.baseurl }}/jfpc/comites), et ceux pour les JIAF est [ici]({{ site.baseurl }}/jiaf/comites)

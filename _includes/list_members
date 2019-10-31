@@ -1,5 +1,7 @@
 
-{% for membre in thecomite -%}
+{% assign members = include.members %}
+
+{% for membre in members -%}
   {%- if membre.website %} 
   - [{{ membre.name }}]({{ membre.website }}) ({{ membre.institution }})
   {%- else %} 

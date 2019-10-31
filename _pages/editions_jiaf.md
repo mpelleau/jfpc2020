@@ -6,6 +6,4 @@ title: Précédentes éditions
 published: true
 ---
 
-{% for edition in site.data.editions_jiaf -%}
-  - [{{ edition.lieu }}]({{ edition.website }}) -- {{ edition.annee }}
-{% endfor %}
+{% include list_editions editions = site.data.editions_jiaf %}
