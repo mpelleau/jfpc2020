@@ -10,20 +10,11 @@ published: true
 ## Comité {{ comite.type }}
 
 ### Présidence
-{% for membre in comite.presidence -%}
-  {%- if membre.website %} 
-  - [{{ membre.name }}]({{ membre.website }}) ({{ membre.institution }})
-  {%- else %} 
-  - {{ membre.name }} ({{ membre.institution }}) 
-  {%- endif -%}
-{% endfor %}
+{% assign thecomite = comite.presidence %}
+{% include _list_members.md %}
 
 ### Autre Membres
-{% for membre in comite.autre -%}
-  {%- if membre.website %} 
-  - [{{ membre.name }}]({{ membre.website }}) ({{ membre.institution }})
-  {%- else %} 
-  - {{ membre.name }} ({{ membre.institution }}) 
-  {%- endif -%}
+{% assign thecomite = comite.autre %}
+{% include _list_members.md %}
+
 {% endfor %}
-{% endfor -%}
