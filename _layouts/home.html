@@ -6,16 +6,17 @@
 
     <body id="page-top" class="index">
 
-    {% include _navigation_home.html %}
+    {% include navigation_bar navigation = site.data.navigation home = true %}
 
     <!-- Header -->
-    <header>
+    <header style="background-image: url('{{ site.baseurl }}/images/header-home.jpg');">
         <div class="container">
             <div class="intro-text">
-                <div class="intro-heading">{{ site.title }}<br></div>
+                <div class="intro-heading">{{ site.title }}</div>
                 <div class="intro-lead-in">{{ site.date }}</div>
                 <div class="intro-lead-in">{{ site.location }}</div>
-                <!-- a href="#intro" class="page-scroll btn btn-xl">Tell Me More</a -->
+                <!-- a href="#intro" class="page-scroll btn btn-xl">Tell Me More</a 
+copyright: <a href="https://www.facebook.com/pg/ThomasCalvanicoPhotographe" target="_blank">Thomas Calvanico</a>-->
             </div>
         </div>
     </header>

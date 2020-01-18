@@ -1,9 +1,10 @@
 ---
-layout: page_jfpc
+layout: page
 show_meta: false
 permalink: jfpc
 title: JFPC 2020
 published: true
+conference: jfpc
 ---
 
 Les JFPC (Journées Francophones de Programmation par Contraintes) sont le principal congrès de la communauté francophone travaillant sur les problèmes de satisfaction de contraintes (CSP), le problème de la satisfiabilité d'une formule logique propositionnelle (SAT) et/ou la programmation logique avec contraintes (CLP). La communauté de programmation par contraintes entretient également des liens avec la recherche opérationnelle (RO), l'analyse par intervalles et différents domaines de l'intelligence artificielle.

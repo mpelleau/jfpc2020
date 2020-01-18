@@ -1,9 +1,10 @@
 ---
-layout: page_jfpc
+layout: page
 show_meta: false
 permalink: jfpc/soumission
 title: Soumission
 published: true
+conference: jfpc
 ---
 
 Une soumission peut être :

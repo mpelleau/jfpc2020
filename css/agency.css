@@ -339,13 +339,16 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/images/header-home.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+header .intro-heading {
+    color: #fff;
 }
 
 header .intro-text {
@@ -386,9 +389,9 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
+        font-size: 40px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 40px;
     }
 }
 

@@ -1,9 +1,10 @@
 ---
-layout: page_jiaf
+layout: page
 show_meta: false
 permalink: jiaf
 title: JIAF 2020
 published: true
+conference: jiaf
 ---
 
 Description des JIAF

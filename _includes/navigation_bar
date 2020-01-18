@@ -1,7 +1,30 @@
+{% assign navigation = include.navigation %}
+
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-default-color navbar-fixed-top">
+{% if include.home %}
+    <nav class="navbar navbar-default navbar-default-color navbar-fixed-top">
+{% else %}
+    <nav class="navbar navbar-default navbar-fixed-top">
+{% endif %}
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll" style="margin:5px 30px 0px 0px; font-size:110%; font-weight:bold">
+            <ul style="list-style: none;">
+            {% for link in navigation %}
+                {% if link.url contains 'http' %}
+                    {% assign domain = '' %}
+                {% elsif link.url == '#' %}
+                    {% assign domain = site.baseurl | append:"/" %}
+                {% else %}
+                    {% assign domain = site.url | append:site.baseurl %}
+                {% endif %}
+
+                {% if link.side == 'lleft' %}
+                    <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </div>
         <div class="navbar-header page-scroll">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -18,7 +41,7 @@
                 <li class="hidden">
                     <a href="/"></a>
                 </li>
-                {% for link in site.data.navigation %}
+                {% for link in navigation %}
                     {% if link.url contains 'http' %}
                         {% assign domain = '' %}
                     {% elsif link.url == '#' %}
@@ -36,7 +59,7 @@
                 <li class="hidden">
                     <a href="/"></a>
                 </li>
-                {% for link in site.data.navigation %}
+                {% for link in navigation %}
                     {% if link.url contains 'http' %}
                         {% assign domain = '' %}
                     {% elsif link.url == '#' %}
@@ -52,7 +75,7 @@
             </ul>
         </div>
         <!-- /.navbar-collapse -->
-    </div>
+    </div> 
     <!-- /.container-fluid -->
-</nav>
+</nav> 
 <!-- /.navbar -->

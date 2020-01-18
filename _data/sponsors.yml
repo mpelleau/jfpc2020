@@ -1,19 +1,21 @@
-- name: Name
-  img: TBD.jpg
-  website: Website
+- name: Université Côte d'Azur
+  img: UCA2.png
+  website: http://univ-cotedazur.fr/fr
+  alt: Université Côte d'Azur
 
-- name: Name
-  img: TBD.jpg
-  website: Website
+- name: Laboratoire d'Informatique, Signaux et Systèmes de Sophia Antipolis
+  img: i3s.png
+  website: http://i3s.unice.fr/
+  alt: Laboratoire d'Informatique, Signaux et Systèmes de Sophia Antipolis
 
-- name: Name
-  img: TBD.jpg
-  website: Website
-
-- name: Name
-  img: TBD.jpg
-  website: Website
-
-- name: Name
-  img: TBD.jpg
-  website: Website
+#- name: Name
+#  img: TBD.jpg
+#  website: Website
+#
+#- name: Name
+#  img: TBD.jpg
+#  website: Website
+#
+#- name: Name
+#  img: TBD.jpg
+#  website: Website

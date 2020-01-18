@@ -1,9 +1,10 @@
 ---
-layout: page_jiaf
+layout: page
 show_meta: false
 permalink: jiaf/soumission
 title: Soumission
 published: true
+conference: jiaf
 ---
 
 Modalités pour la soumission d'articles

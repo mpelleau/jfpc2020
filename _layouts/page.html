@@ -13,7 +13,13 @@
   {% include _home.html %}
   
   <body>
-    {% include _navigation.html %}
+    {% if page.conference == "jfpc" %} 
+        {% include navigation_bar navigation = site.data.navigation_jfpc %}
+    {% elsif page.conference == "jiaf" %}
+        {% include navigation_bar navigation = site.data.navigation_jiaf %}
+    {% else %}
+        {% include navigation_bar navigation = site.data.navigation %}
+    {% endif %}
     <div class="event black-frame">
         {% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
         <h1>{{ page.title }}</h1>

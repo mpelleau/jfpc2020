@@ -1,9 +1,10 @@
 ---
-layout: page_jiaf
+layout: page
 show_meta: false
 permalink: jiaf/comites
 title: Comités
 published: true
+conference: jiaf
 ---
 
 {% for comite in site.data.comites_jiaf %}
