@@ -5,14 +5,15 @@ permalink: /venue/travel
 title: Venir à Nice
 published: true
 image: header-voyage.jpg
-copyright: <a href="https://www.facebook.com/pg/ThomasCalvanicoPhotographe" target="_blank">Thomas Calvanico</a>
+copyright: Thomas Calvanico
+website: https://www.facebook.com/pg/ThomasCalvanicoPhotographe
 ---
 
-En Avion
+# <i class="fas fa-plane" aria-hidden="true"></i> En Avion
 
-En Train
+# <i class="fas fa-train" aria-hidden="true"></i> En Train
 
-En Voiture
+# <i class="fas fa-car" aria-hidden="true"></i> En Voiture
 
-En Bateau
+# <i class="fas fa-ship" aria-hidden="true"></i> En Bateau
 

@@ -8,10 +8,11 @@
   website: http://i3s.unice.fr/
   alt: Laboratoire d'Informatique, Signaux et Systèmes de Sophia Antipolis
 
-#- name: Name
-#  img: TBD.jpg
-#  website: Website
-#
+- name: AFPC
+  img: afpc.png
+  website: http://afpc.greyc.fr/web/
+  alt: Association Française pour la Programmation par Contraintes
+
 #- name: Name
 #  img: TBD.jpg
 #  website: Website

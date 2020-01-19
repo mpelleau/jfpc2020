@@ -7,5 +7,5 @@ published: true
 ---
 
 {% for sponsor in site.data.sponsors -%}
-    ![{{ sponsor.name }}](/images/sponsor/{{ sponsor.img }}){: style="max-width: 20%;height: auto !important;"}
+    [![{{ sponsor.name }}]({{ site.baseurl }}/images/sponsor/{{ sponsor.img }}){: style="max-width: 20%;height: auto !important;"}]({{ sponsor.website }})
 {% endfor %}
