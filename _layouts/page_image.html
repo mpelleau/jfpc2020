@@ -22,13 +22,13 @@
         {% endif %}
 
         <!-- Header -->
-        <header style="background-image: url('{{ site.baseurl }}/images/{{ page.image }}');width: 100vw !important;height: auto !important;">
+        <header style="background-image: url('{{ site.baseurl }}/images/{{ page.image }}'), url('{{ site.baseurl }}/images/blanc.png'); background-blend-mode:overlay; width: 100vw !important;max-height: 50vh;">
             <div class="container">
                 <div class="intro-text">
                     <div class="intro-heading">{{ page.title }}</div>
                     {% if page.subheadline %}<div class="subheadline">{{ page.subheadline }}</div>{% endif %}
-                    {% if page.copyright %}<div class="intro-info"><a href={{ page.website }} target="_blank" style="color:#fff">&copy; {{ page.copyright }}</a></div>{% endif %}
                 </div>
+                {% if page.copyright %}<div class="intro-info"><a href={{ page.website }} target="_blank">&copy; {{ page.copyright }}</a></div>{% endif %}
             </div>
         </div>
         </header>
