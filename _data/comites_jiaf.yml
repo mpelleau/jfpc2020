@@ -7,16 +7,19 @@
       institution: Université Côte d'Azur
       website: http://www.i3s.unice.fr/~tettaman/
   autre:
-    - name: Name
-      institution: Institution
+    - name: 
+      institution: 
+      website: 
+    - name: 
+      institution: 
       website: 
 
 - type: "scientifique"
   presidence:
-    - name: Name
-      institution: Institution
+    - name: 
+      institution: 
       website: 
   autre:
-    - name: Name
-      institution: Institution
+    - name: 
+      institution: 
       website: 

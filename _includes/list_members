@@ -3,8 +3,8 @@
 
 {% for membre in members -%}
   {%- if membre.website %} 
-  - [{{ membre.name }}]({{ membre.website }}) ({{ membre.institution }})
+  - [{{ membre.name }}]({{ membre.website }}) {% if membre.institution != nil %}({{ membre.institution }}) {% endif %}
   {%- else %} 
-  - {{ membre.name }} ({{ membre.institution }}) 
+  - {{ membre.name }} {% if membre.institution != nil %}({{ membre.institution }}) {% endif %}
   {%- endif -%}
 {%- endfor %}

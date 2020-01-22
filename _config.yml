@@ -4,7 +4,7 @@ date: "JFPC et JIAF<br>Du 2 au 5 juin 2020"
 location: "Nice"
 description: > # this means to ignore newlines until "baseurl:"
     "JFPC 2020 et JIAF 2020 du 2 au 5 juin à Nice"
-baseurl: "jfpc_jiaf_2020" # the subpath of your site, e.g. /blog
+baseurl: "/jfpc_jiaf_2020" # the subpath of your site, e.g. /blog
 url: "http://i3s.unice.fr"
 
 sidebar:

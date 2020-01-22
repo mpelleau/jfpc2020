@@ -761,7 +761,7 @@ header .intro-info {
 }
 
 .timeline li {
-    margin-bottom: 20px;
+    padding: 30px 0px;
     position: relative;
 }
 
@@ -800,29 +800,30 @@ header .intro-info {
 }
 
 .timeline li .timeline-date {
-    width: calc(30% - 12px);
-    float: right;
+    max-width: calc(30% - 12px);
+    float: left;
     background: var(--date-background-color);
     color: var(--date-color);
     border: 2px solid #fff;
     padding: 5px 20px;
     position: relative;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: auto;
 }
 
 .timeline li.timeline-inverted .timeline-date {
-    float: left;
+    float: right;
     background: var(--inverted-date-background-color);
     color: var(--inverted-date-color);
     border-color: #fff;
-    margin-right: 0;
-    margin-left: 10%;
+    margin-right: 10%;
+    margin-left: auto;
 }
 
 /** timeline circle icons **/
 .timeline li .tl-circ {
     position: absolute;
-    top: 12px;
+    top: 42px;
     left: 50%;
     text-align: center;
     background-color: var(--circle-color);
@@ -891,7 +892,7 @@ header .intro-info {
         width: calc(40% - 12px);
     }
     .timeline li .timeline-date {
-        width: calc(30% - 12px);
+        max-width: calc(30% - 12px);
     }
 }
 
@@ -946,7 +947,7 @@ header .intro-info {
 
   
     ul.timeline li .timeline-date {
-        width: calc(60% - 75px);
+        max-width: calc(60% - 75px);
         float: right !important;
         margin: 0 20% 0 0!important;
     }

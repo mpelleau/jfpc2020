@@ -7,11 +7,12 @@
       institution: Université Côte d'Azur
       website: http://i3s.unice.fr/~mpelleau/
   autre:
-    - name: Name
-      institution: Institution
+    - name: 
+      institution: 
       website: 
-    - name: Name
-      institution: Institution
+    - name: 
+      institution: 
+      website: 
 
 - type: "scientifique"
   presidence:
@@ -19,8 +20,9 @@
       institution: Montpellier SupAgro
       website: http://www.lirmm.fr/~vismara/accueil.php
   autre:
-    - name: Name
-      institution: Institution
+    - name: 
+      institution: 
       website: 
-    - name: Name
-      institution: Institution
+    - name: 
+      institution: 
+      website: 
