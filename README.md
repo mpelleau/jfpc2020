@@ -11,7 +11,7 @@ qui va installer les plugins nécessaires pour le site.
 
 Pour générer le site il faut faire
 ```
-bundle exec jekyll serve
+bundle exec jekyll serve --config _config.yml,_config_dev.yml
 ```
 qui va générer le site (dans le dossier `_site` par défaut) et faire un serveur local afin de pouvoir voir le site à l'adresse [http://localhost:4000](http://localhost:4000).
 
