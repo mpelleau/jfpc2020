@@ -21,6 +21,6 @@ L'archive des « Consignes aux auteurs » contient la classe LaTeX jfpc ainsi qu
 {:.sidenote}
 
 
-# Dates importantes
+# <i class="far fa-clock" aria-hidden="true"></i> Dates importantes
 
 {% include list_dates dates = site.data.dates_jfpc %}

@@ -4,7 +4,7 @@
   info: Plus de détails sur notre thématique, vision et mission
   link: /about
 
-- inverted: timeline-inverted
+- inverted: bulletinfo-inverted
   img: icon-agenda.png
   name: Programme
   info: Découvrez le programme
@@ -16,7 +16,7 @@
   info: 
   link: /team
 
-- inverted: timeline-inverted
+- inverted: bulletinfo-inverted
   img: icon-venue.png
   name: Nice
   info: 

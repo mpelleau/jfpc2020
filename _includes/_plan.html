@@ -9,17 +9,22 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <ul class="timeline">
+                    <ul class="bulletinfo">
                         {% for about_data in site.data.sitemap %}
-                            <li class="{{ about_data.inverted }}">
-                                <div class="timeline-image">
+                            {% assign r = forloop.index | modulo: 2 %}
+                            {% if r == 1 %}
+                            <li class="bulletinfo-inverted">
+                            {% else %}
+                            <li>
+                            {% endif %}
+                                <div class="bulletinfo-image">
                                     <img class="img-circle img-responsive" src="../assets/img/{{ about_data.img }}" alt="">
                                 </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
+                                <div class="bulletinfo-panel">
+                                    <div class="bulletinfo-heading">
                                         <h4>{{ about_data.name }}</h4>
                                     </div>
-                                    <div class="timeline-heading">
+                                    <div class="bulletinfo-heading">
                                         <p class="text-muted">{{ about_data.info }}</p>
                                     </div>
                                     <a href="{{ about_data.link }}" class="page-scroll btn btn-sm">Learn More</a>
