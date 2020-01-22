@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-permalink: /agenda
+permalink: agenda/index
 title: Programme
 published: true
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-permalink: jiaf/programme
+permalink: jiaf/programme/index
 title: Programme des JIAF
 published: true
 conference: jiaf
