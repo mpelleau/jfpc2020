@@ -8,8 +8,9 @@
 
     {% seo %}
 
-    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ 
+    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">-->
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/css/style.css">
 
     <!--Remove image dragging -->
     <BODY ondragstart="return false;" ondrop="return false;">
@@ -24,5 +25,5 @@
     <script src="https://kit.fontawesome.com/0b565a8069.js" crossorigin="anonymous"></script>
 
     <!-- WEBSITE ICON IN BROWSER -->
-    <link rel="icon" type="image/png" href="{{ "/assets/img/" | absolute_url }}favicon.png">
+    <link rel="icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/assets/img/favicon.png">
 </head>
