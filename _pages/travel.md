@@ -1,7 +1,7 @@
 ---
 layout: page_image
 show_meta: false
-permalink: /venue/travel
+permalink: venue/travel/index
 title: Venir à Nice
 published: true
 image: header-voyage.jpg

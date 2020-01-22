@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-permalink: jiaf/soumission
+permalink: jiaf/soumission/index
 title: Soumission
 published: true
 conference: jiaf

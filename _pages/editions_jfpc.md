@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-permalink: jfpc/editions
+permalink: jfpc/editions/index
 title: Précédentes éditions
 published: true
 conference: jfpc

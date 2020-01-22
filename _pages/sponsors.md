@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-permalink: /sponsors
+permalink: sponsors/index
 title: Sponsors
 published: true
 ---

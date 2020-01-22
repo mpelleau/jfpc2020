@@ -22,8 +22,8 @@
   info: 
   link: /venue
 
-- inverted: 
-  img: icon-booklet.png
-  name: Event Booklet
-  info: View or Download our event booklet
-  link: /booklet
+#- inverted: 
+#  img: icon-booklet.png
+#  name: Event Booklet
+#  info: View or Download our event booklet
+#  link: /booklet

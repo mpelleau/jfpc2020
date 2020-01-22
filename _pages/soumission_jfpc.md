@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-permalink: jfpc/soumission
+permalink: jfpc/soumission/index
 title: Soumission
 published: true
 conference: jfpc

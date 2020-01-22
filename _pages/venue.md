@@ -1,7 +1,7 @@
 ---
 layout: page_image
 show_meta: false
-permalink: /venue
+permalink: venue/index
 title: Nice
 published: true
 image: header-nice.jpg

@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-permalink: "jfpc/programme"
+permalink: jfpc/programme/index
 title: Programme des JFPC
 published: true
 conference: jfpc

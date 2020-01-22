@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-permalink: /team
+permalink: team/index
 title: Comités
 published: true
 ---
