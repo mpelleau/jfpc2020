@@ -1,35 +1,45 @@
 - day: Mardi 2 juin
   sessions:
   - time: 18h-19h
-    info: Pot de bienvenue # "<u>Sessions</u><br><b>Name</b><br><i>Position</i><br>Topic"
+    title: Pot de bienvenue
+    room: Salle des Petits Pas
 
 - day: Mercredi 3 juin
   sessions:
   - time: 8h30-9h
-    info: Ouverture des journées 
+    title: Ouverture des journées
+    room: Amphi 201
   - time: 9h-11h 
-    info: Sessions
+    title: Sessions
+    room: Amphi 201
   - time: 11h-12h
-    info: Exposé invité
+    title: Exposé invité
+    room: Amphi 200
   - time: 14h–18h 
-    info: Sessions
+    title: Sessions
+    room: Amphi 201
 
 - day: Jeudi 4 juin
   sessions:
   - time: 9h-11h
-    info: Sessions
+    title: Sessions
+    room: Amphi 201
   - time: 11h-12h
-    info: Exposé invité
+    title: Exposé invité
+    room: Amphi 200
   - time: 14h-18h
-    info: Sessions
+    title: Sessions
+    room: Amphi 201
   - time: 20h-23h
-    info: Gala
+    title: Gala
 
 - day: Vendredi 5 juin
   sessions:
   - time: 9h-11h
-    info: Sessions
+    title: Sessions
+    room: Amphi 201
   - time: 11h-12h
-    info: Exposé invité
+    title: Exposé invité
+    room: Amphi 200
   - time: 12h-14h
-    info: Panier repas
+    title: Panier repas

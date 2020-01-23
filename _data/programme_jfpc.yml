@@ -1,45 +1,59 @@
 - day: Mardi 2 juin
   sessions:
   - time: 10h-12h
-    info: Sessions GT # "<u>Sessions GT</u><br><b>Name</b><br><i>Position</i><br>Topic"
+    title: Sessions GT # "<u>Sessions GT</u><br><b>Name</b><br><i>Position</i><br>Topic"
+    info: Réunions pour vos GDR/GT
+    room: Amphi 200, 201, 202
   - time: 14h-14h30 
-    info: Ouverture des journées
+    title: Ouverture des journées
+    room: Amphi 200
   - time: 14h30-18h
-    info: Sessions
+    title: Sessions
+    room: Amphi 200
   - time: 18h-19h
-    info: Pot de bienvenue
+    title: Pot de bienvenue
+    room: Salle des Petits Pas
 
 - day: Mercredi 3 juin
   sessions:
   - time: 9h-11h
-    info: Sessions
+    title: Sessions
+    room: Amphi 200
   - time: 11h-12h
-    info: Exposé invité
+    title: Exposé invité
+    room: Amphi 200
   - time: 14h-17h
-    info: Sessions
+    title: Sessions
+    room: Amphi 200
   - time: 17h-19h
-    info: AG AFPC
+    title: AG AFPC
+    room: Amphi 200
   - time: 20h-22h
-    info: Repas du CA
+    title: Repas du CA
 
 - day: Jeudi 4 juin
   sessions:
   - time: 9h-11h
-    info: Sessions
+    title: Sessions
+    room: Amphi 200
   - time: 11h-12h
-    info: Exposé invité
+    title: Exposé invité
+    room: Amphi 200
   - time: 14h-16h
-    info: Sessions
+    title: Sessions
+    room: Amphi 200
   - time: 16h-18h
-    info: Visite de Nice
+    title: Visite de Nice
   - time: 20h-23h
-    info: Gala
+    title: Gala
 
 - day: Vendredi 5 juin
   sessions:
   - time: 9h-11h
-    info: Sessions
+    title: Sessions
+    room: Amphi 200
   - time: 11h-12h
-    info: Exposé invité
+    title: Exposé invité
+    room: Amphi 200
   - time: 12h-14h
-    info: Panier repas
+    title: Panier repas

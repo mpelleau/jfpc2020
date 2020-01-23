@@ -7,6 +7,7 @@ published: true
 conference: jiaf
 ---
 
+<!--
 {% for agenda in site.data.programme_jiaf %}
 ## {{ agenda.day }}
 
@@ -15,4 +16,6 @@ conference: jiaf
 {% for session in agenda.sessions -%}
 | {{ session.time }} | {{ session.info}} |
 {% endfor -%}
-{% endfor %}
+{% endfor %}-->
+
+{% include programme program = site.data.programme_jiaf %}
