@@ -13,7 +13,7 @@
         <div class="timeline-panel">
             <div class="tl-heading">
                 <h5>{{ date.title }}</h5>
-                {% if date.info -%}<span>{{ date.info }}</span>{% endif %}
+                {% if date.info -%}<span class="tl-info">{{ date.info }}</span>{% endif %}
             </div>
         </div>
         <div class="timeline-date">

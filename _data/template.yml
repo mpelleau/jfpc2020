@@ -7,5 +7,5 @@ color:
 
   # Font Families
 font:
-  primary: '"Lato","Helvetica Neue",Helvetica, Arial, sans-serif'
-  secondary: '"Lato", "Helvetica Neue", Helvetica, Arial, sans-serif'
+  primary: '"Oswald", sans-serif'
+  secondary: '"Open Sans", sans-serif'
