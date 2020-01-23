@@ -423,7 +423,8 @@ header .container {
 
 header .intro-text {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: top;
+    padding-top:15%;
     padding-left: 95px;
 }
 
@@ -431,10 +432,11 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: var(--fsecondary);
     font-size: 22px;
-    font-style: italic;
     line-height: 22px;
     padding-left:10px;
     border-left: 10px solid var(--primary);
+    letter-spacing: -2px;
+    margin-left: 20%;
 }
 
 header .intro-text .intro-heading {
@@ -468,14 +470,12 @@ header .intro-info {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-size: 40px;
-        font-style: italic;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         font-size: 40px;
-        font-weight: 700;
         line-height: 40px;
     }
 
