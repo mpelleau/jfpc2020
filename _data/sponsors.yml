@@ -8,6 +8,12 @@
   website: http://i3s.unice.fr/
   alt: Laboratoire d'Informatique, Signaux et Systèmes de Sophia Antipolis
 
+- name: Université Nice Sophia-Antipolis
+  img: uns.png
+  website: http://unice.fr/
+  alt: Université Nice Sophia-Antipolis
+  
+
 - name: AFPC
   img: afpc.png
   website: http://afpc.greyc.fr/web/

@@ -306,8 +306,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: transparent;
-    background-color: white; /*var(--light);*/
+    border-color: var(--primary);
+    background-color: var(--primary);
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -340,6 +340,17 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: var(--secondary);
+}
+
+.confs {
+    margin:5px 30px 0px 0px; 
+    font-size:110%; 
+    font-weight:bold;
+    float: left;
+}
+
+.confs ul {
+    list-style: none;
 }
 
 @media(min-width:768px) {

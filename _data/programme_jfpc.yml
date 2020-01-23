@@ -1,7 +1,7 @@
 - day: Mardi 2 juin
   sessions:
   - time: 10h-12h
-    title: Sessions GT # "<u>Sessions GT</u><br><b>Name</b><br><i>Position</i><br>Topic"
+    title: Sessions GT
     info: Réunions pour vos GDR/GT
     room: Amphi 200, 201, 202
   - time: 14h-14h30 
