@@ -25,6 +25,8 @@
     --circle-color: white;
     --circle-border-color: #{{ site.data.template.color.secondary }};
 
+    --clear: rgba(255, 255, 255, 0.3);
+
     --fprimary: {{ site.data.template.font.primary }};
     --fsecondary: {{ site.data.template.font.secondary }};
 }
@@ -287,6 +289,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: white; /*var(--light);*/
+    padding: 10px 0;
 }
 
 .navbar-default .navbar-brand {
@@ -355,9 +358,9 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default-color {
-        padding: 25px 0;
-        background-color: transparent;
+        background-color: var(--clear);
     }
+
     .navbar-default {
         border: 0;
         -webkit-transition: padding .3s;
@@ -405,11 +408,13 @@ header .intro-heading {
 header .container {
     height: 100%;
     display:table;
+    background-color: var(--clear);
 }
 
 header .intro-text {
     display: table-cell;
     vertical-align: middle;
+    padding-left: 100px;
 }
 
 header .intro-text .intro-lead-in {

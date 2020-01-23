@@ -9,8 +9,6 @@ copyright: Thomas Calvanico
 website: https://www.facebook.com/pg/ThomasCalvanicoPhotographe
 ---
 
-# Nice
-
 Située au sud de l’Europe et à l’extrême sud-est de la France, Nice est un point de jonction privilégié entre les Alpes, la Provence, la Corse et l’Italie.
 La ville occupe un site naturel remarquable au coeur de la Côte d'Azur. Elle s'est développée dans un large bassin ouvert au sud sur la Méditerranée et bordée d'est en ouest par une succession de collines boisées. En arrière-plan, s'élèvent les premiers sommets des contreforts alpins dont certains culminent à plus de 3000 m d'altitude, bien que 50 km à vol d'oiseau les séparent du littoral...
 
