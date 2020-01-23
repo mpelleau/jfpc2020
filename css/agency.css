@@ -288,12 +288,11 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: white; /*var(--light);*/
+    background-color: white;
     padding: 10px 0;
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: var(--primary);
 }
 
@@ -354,6 +353,11 @@ fieldset[disabled] .btn-xl.active {
 
 .confs ul {
     list-style: none;
+}
+
+.navbar-brand-style {
+    margin-top: -15px;
+    width: 50px;
 }
 
 @media(min-width:768px) {
@@ -424,7 +428,7 @@ header .container {
 header .intro-text {
     display: table-cell;
     vertical-align: top;
-    padding-top:15%;
+    padding-top: 180px;
     padding-left: 95px;
     letter-spacing: -2px;
 }

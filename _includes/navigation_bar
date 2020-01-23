@@ -21,7 +21,9 @@
                 {% assign lien = link.url | append:"index" %}
 
                 {% if link.side == 'lleft' %}
-                    <li{% if lien == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a {% if link.class %}class="{{link.class}}"{% else %}class="inactive"{% endif %} href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
+                    <li{% if lien == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}>
+                        <a {% if link.class %}class="{{link.class}}"{% else %}class="inactive"{% endif %} href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
+                    </li>
                 {% endif %}
             {% endfor %}
             </ul>
@@ -33,7 +35,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="{{ site.url | append:site.baseurl }}"><img src="{{ site.url | append:site.baseurl }}/assets/img/favicon.png" style="margin-top:-15px" width="50px" alt="icon-about"></a>
+            <a class="navbar-brand page-scroll" href="{{ site.url | append:site.baseurl }}">
+                <img src="{{ site.url | append:site.baseurl }}/assets/img/favicon.png" class="navbar-brand-style" alt="icon-about">
+            </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -53,7 +57,9 @@
                     {% assign lien = link.url | append:"index" %}
 
                     {% if link.side == 'right' %}
-                        <li{% if lien == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
+                        <li{% if lien == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}>
+                            <a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
+                        </li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -72,7 +78,9 @@
                     {% assign lien = link.url | append:"index" %}
 
                     {% if link.side == 'left' %}
-                        <li{% if lien == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
+                        <li{% if lien == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}>
+                            <a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
+                        </li>
                     {% endif %}
                 {% endfor %}
             </ul>
