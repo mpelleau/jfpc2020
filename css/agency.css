@@ -25,7 +25,7 @@
     --circle-color: white;
     --circle-border-color: #{{ site.data.template.color.secondary }};
 
-    --clear: rgba(255, 255, 255, 0.3);
+    --clear: rgba(255, 255, 255, 0.4);
 
     --fprimary: {{ site.data.template.font.primary }};
     --fsecondary: {{ site.data.template.font.secondary }};
@@ -401,6 +401,16 @@ header {
     -o-background-size: cover;
 }
 
+/*.image {
+    background-color: var(--clear);
+    background-blend-mode: overlay;
+}*/
+
+.half {
+    width: 100vw !important; 
+    max-height: 50vh;
+}
+
 header .intro-heading {
     color: var(--primary);
 }
@@ -414,7 +424,7 @@ header .container {
 header .intro-text {
     display: table-cell;
     vertical-align: middle;
-    padding-left: 100px;
+    padding-left: 95px;
 }
 
 header .intro-text .intro-lead-in {
@@ -423,6 +433,8 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    padding-left:10px;
+    border-left: 10px solid var(--primary);
 }
 
 header .intro-text .intro-heading {
@@ -431,6 +443,8 @@ header .intro-text .intro-heading {
     font-size: 22px;
     font-weight: 700;
     line-height: 22px;
+    padding-left:10px;
+    border-left: 10px solid var(--primary);
 }
 
 header .intro-info a {
