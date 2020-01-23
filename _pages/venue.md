@@ -20,7 +20,7 @@ La ville occupe un site naturel remarquable au coeur de la Côte d'Azur. Elle s'
 
 ## Conférence
   La conférence aura lieu sur le campus Trotabas.
-  La salle pleinière ou pour les JFPC est l'amphi 200 et celle pour les JIAF est l'amphi 201.
+  La salle pleinière pour les JFPC est l'amphi 200 et celle pour les JIAF est l'amphi 201.
   Pour s'y rendre, vous pouvez utiliser la ligne 64 de bus arrêt "Clair de Lune" ou le tram 2 arrêt "Magnan".
 
 <!--

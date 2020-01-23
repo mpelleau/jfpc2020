@@ -1170,6 +1170,7 @@ footer span.copyright {
     text-transform: none;
     font-family: var(--fprimary);
     line-height: 40px;
+    color: var(--primary);
 }
 
 footer ul.quicklinks {
@@ -1191,8 +1192,8 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #fff;
-    background-color: #00283c;
+    color: white;
+    background-color: var(--primary);
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
