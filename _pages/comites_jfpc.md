@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-permalink: jfpc/comites/index
+permalink: jfpc/comites/
 title: Comités
 published: true
 conference: jfpc

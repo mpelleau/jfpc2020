@@ -12,8 +12,8 @@
         <div class="tl-circ"></div>
         <div class="timeline-panel">
             <div class="tl-heading">
-                <h5>{{ date.title }}</h5>
-                {% if date.info -%}<span class="tl-info">{{ date.info }}</span>{% endif %}
+                <session-title>{{ date.title }}</session-title>
+                {% if date.info -%}<session-room style="color: var(--primary);">{{ date.info }}</session-room>{% endif %}
             </div>
         </div>
         <div class="timeline-date">

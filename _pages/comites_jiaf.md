@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-permalink: jiaf/comites/index
+permalink: jiaf/comites/
 title: Comités
 published: true
 conference: jiaf

@@ -9,20 +9,20 @@
     --secondary: #{{ site.data.template.color.secondary }};
     --tertiary: #{{ site.data.template.color.tertiary }};
     --muted: #{{ site.data.template.color.muted }};
-    --light: #ddd;
+    --light: #e1e1e1;
 
-    --event-background-color: #ddd;
+    --event-background-color: #e1e1e1;
     --event-color: white;
-    --inverted-event-background-color: #ddd;
+    --inverted-event-background-color: #e1e1e1;
     --inverted-event-color: white;
 
     --date-color: white;
-    --date-background-color: #{{ site.data.template.color.primary }};
+    --date-background-color: #{{ site.data.template.color.secondary }};
     --inverted-date-color: white;
-    --inverted-date-background-color: #{{ site.data.template.color.primary }};
+    --inverted-date-background-color: #{{ site.data.template.color.secondary }};
 
-    --line-color: #ddd;
-    --circle-color: white;
+    --line-color: #e1e1e1;
+    --circle-color: #{{ site.data.template.color.secondary }};
     --circle-border-color: #{{ site.data.template.color.secondary }};
 
     --clear: rgba(255, 255, 255, 0.4);
@@ -290,6 +290,7 @@ fieldset[disabled] .btn-xl.active {
     border-color: transparent;
     background-color: white;
     padding: 10px 0;
+    text-transform: uppercase;
 }
 
 .navbar-default .navbar-brand {
@@ -324,7 +325,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     font-family: var(--fprimary);
     font-weight: 400;
-    letter-spacing: 1px;
     color: var(--primary);
 }
 
@@ -430,7 +430,6 @@ header .intro-text {
     vertical-align: top;
     padding-top: 180px;
     padding-left: 95px;
-    letter-spacing: -2px;
 }
 
 header .intro-text .intro-lead-in {
@@ -888,11 +887,6 @@ header .intro-info {
     font-weight: bolder;
 }
 
-.tl-heading h5 {
-    font-size: 1.2em;
-    margin: 0;
-}
-
 .tl-body p,
 .tl-body ul {
     margin-bottom: 0;
@@ -906,7 +900,8 @@ header .intro-info {
 .tl-cal {
     margin: 0;
     color: var(--date-color)!important;
-    font-size: 0.8em;
+    font-size: 16px;
+    line-height: 24px;
     text-align: center;
     font-family: var(--fprimary);
 }
@@ -1041,9 +1036,11 @@ header .intro-info {
 }
 
 .programme .days .programme-jour.active {
-    background: var(--secondary);
+    background: var(--primary);
     color: white;
-    border: 2px solid var(--secondary);
+    border: 2px solid var(--primary);
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .programme .timeline.show {
@@ -1057,25 +1054,30 @@ header .intro-info {
 session-title {
     color: var(--primary);
     display: block;
-    font-size: 1.2em;
-    line-height: 1em;
-    letter-spacing: -0.3px;
     text-transform: uppercase;
+    font-family: var(--fprimary);
+    font-weight: bolder;
+    font-size: 17px;
+    line-height: 25px;
 }
 
 session-room {
-    color: var(--secondary);
+    color: red;
     display: block;
-    font-weight: normal;
-    line-height: 1em;
+    font-family: var(--fprimary);
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 25px;
 }
 
 session-info {
     display: block;
     color: var(--muted);
-    margin-top: 1em;
+    margin-top: 1.5em;
     font-family: var(--fsecondary);
     font-weight: lighter;
+    font-size: 14px;
+    line-height: 19px;
 }
 
 /********************************************************************************/

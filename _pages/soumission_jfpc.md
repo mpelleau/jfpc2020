@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-permalink: jfpc/soumission/index
+permalink: jfpc/soumission/
 title: Soumission
 published: true
 conference: jfpc
@@ -12,7 +12,7 @@ Une soumission peut être :
   - un article court : 4 pages<sup>[1](#n1){:.fnref #ref1}</sup>,
   - un article très court condensant un article déjà publié : 2 pages<sup>[2](#n2){:.fnref #ref2}</sup>.
 
-L'archive des « Consignes aux auteurs » contient la classe LaTeX jfpc ainsi qu'un document d'exemple détaillant toutes les recommandations.
+L'archive des [Consignes aux auteurs]({% include link-asset asset="styleJFPC2020.zip" %}) contient la classe LaTeX jfpc ainsi qu'un document d'exemple détaillant toutes les recommandations.
 
 [1](#ref1){:#n1}. Les articles courts peuvent, par exemple, présenter des travaux préliminaires de jeunes chercheurs, un panorama des travaux en cours au sein d'un projet de recherche ou d'un laboratoire, une application résolue avec la programmation par contraintes, ou encore un logiciel de programmation par contraintes.
 {:.sidenote}

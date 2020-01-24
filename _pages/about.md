@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-permalink: about/index
+permalink: about/
 title: About the conference
 published: true
 ---

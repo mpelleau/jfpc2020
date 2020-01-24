@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-permalink: jiaf/index
+permalink: jiaf/
 title: JIAF 2020
 published: true
 conference: jiaf

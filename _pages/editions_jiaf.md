@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-permalink: jiaf/editions/index
+permalink: jiaf/editions/
 title: Précédentes éditions
 published: true
 conference: jiaf

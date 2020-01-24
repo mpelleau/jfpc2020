@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-permalink: inscription/index
+permalink: inscription/
 title: Inscription
 published: true
 ---

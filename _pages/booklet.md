@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: booklet/index
+permalink: booklet/
 title: Event Booklet
 published: true
 ---

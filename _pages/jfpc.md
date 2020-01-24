@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-permalink: jfpc/index
+permalink: jfpc/
 title: JFPC 2020
 published: true
 conference: jfpc
