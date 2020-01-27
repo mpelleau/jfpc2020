@@ -72,6 +72,12 @@ body {
   }
 }
 
+@media screen and (max-width: 425px) {
+    body {
+        padding-bottom: 200px;
+    }
+}
+
 .text-muted {
     color: var(--muted);
 }
@@ -353,10 +359,13 @@ fieldset[disabled] .btn-xl.active {
 
 .confs ul {
     list-style: none;
+    margin-right: 20px;
+    margin-left: -20px;
+    min-width: 75px;
 }
 
 .navbar-brand-style {
-    margin-top: -15px;
+    margin-top: -10px;
     width: 50px;
 }
 
@@ -1189,6 +1198,8 @@ footer {
     text-align: center;
     background-color: white;
     position: absolute;
+    bottom: 0;
+    left: 0;
     right: 0;
     left: 0;
 }
