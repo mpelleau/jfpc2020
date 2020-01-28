@@ -13,17 +13,17 @@
 - inverted: 
   img: icon-team.png
   name: Comités
-  info: 
+  info: Découvrez les comités
   link: /team
 
 - inverted: bulletinfo-inverted
   img: icon-venue.png
   name: Nice
-  info: 
+  info: Quelques informations sur Nice
   link: /venue
 
-#- inverted: 
-#  img: icon-booklet.png
-#  name: Event Booklet
-#  info: View or Download our event booklet
-#  link: /booklet
+- inverted: 
+  img: icon-booklet.png
+  name: Quelques adresses
+  info: 
+  link: /booklet

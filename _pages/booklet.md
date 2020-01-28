@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: booklet/
-title: Event Booklet
+title: Quelques adresses
 published: true
 ---
 
-<iframe src="https://docs.google.com/file/d/0Bw6415LzTLuVZFo2RHowN3N5dEE/preview" style="height:100vh;width:100vw;"></iframe>
+<br>
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1cWxoeokCl43D1UYgWpMj7abHL7Qp_kbf" style="width:100%;height:80vh"></iframe>
 

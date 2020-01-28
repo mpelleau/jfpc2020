@@ -7,10 +7,6 @@
   url: "/jiaf/"
   side: right
 
-- title: "Inscription"
-  url: "/inscription/"
-  side: right
-
 - title: "À propos"
   url: "/about/"
   side: right

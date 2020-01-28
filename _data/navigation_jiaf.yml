@@ -30,6 +30,10 @@
   url: "/inscription/"
   side: right
 
+- title: "À propos"
+  url: "/about/"
+  side: right
+
 - title: "Nice"
   url: "/venue/"
   side: right
