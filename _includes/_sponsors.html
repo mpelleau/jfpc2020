@@ -6,11 +6,11 @@
                 <h2 class="section-heading">Sponsors</h2>
             </div>
         </div>
-        <div class="row" style="vertical-align: middle;">
+        <div class="row">
             {% for post in site.data.sponsors %}
                 <div class="col-md-4 col-sm-6">
                     <a href="{{ post.website }}" class="portfolio-link" data-toggle="modal">
-                        <img src="{{ site.url | append:site.baseurl }}/images/sponsor/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}" style="width: auto; max-height:150px;">
+                        <img src="{{ site.url | append:site.baseurl }}/images/sponsor/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}" style="max-width: 100%; min-width: auto; max-height:150px;">
                     </a>
                 </div>
             {% endfor %}
