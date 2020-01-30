@@ -2,12 +2,71 @@
 // foundation.zurb.com
 // Licensed under MIT Open Source
 
-@import "global";
+//@import "global";
+@import "colors";
+
+// IMPORT ONCE
+// We use this to prevent styles from being loaded multiple times for compenents that rely on other components.
+$modules: () !default;
+@mixin exports($name) {
+  // Import from global scope
+  $modules: $modules !global;
+  // Check if a module is already on the list
+  $module_index: index($modules, $name);
+  @if (($module_index == null) or ($module_index == false)) {
+    $modules: append($modules, $name) !global;
+    @content;
+  }
+}
+
+@mixin css-triangle($triangle-size, $triangle-color, $triangle-direction) {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: inset $triangle-size;
+  @if ($triangle-direction == top) {
+    border-color: $triangle-color transparent transparent transparent;
+    border-top-style: solid;
+  }
+  @if ($triangle-direction == bottom) {
+    border-color: transparent transparent $triangle-color transparent;
+    border-bottom-style: solid;
+  }
+  @if ($triangle-direction == left) {
+    border-color: transparent transparent transparent $triangle-color;
+    border-left-style: solid;
+  }
+  @if ($triangle-direction == right) {
+    border-color: transparent $triangle-color transparent transparent;
+    border-right-style: solid;
+  }
+}
+
+@mixin radius($radius:$global-radius) {
+  @if $radius {
+    border-radius: $radius;
+  }
+}
 
 //
 // @variables
 //
-$include-html-dropdown-classes: $include-html-classes !default;
+$global-radius: 3px !default;
+$cursor-pointer-value: pointer !default;
+
+$text-direction: ltr !default;
+$default-float: left !default;
+$opposite-direction: right !default;
+@if $text-direction == ltr {
+  $default-float: left;
+  $opposite-direction: right;
+} @else {
+  $default-float: right;
+  $opposite-direction: left;
+}
+
+$include-html-dropdown-classes: true !default;
 
 // We use these to controls height and width styles.
 $f-dropdown-max-width: 200px !default;
@@ -27,25 +86,25 @@ $f-dropdown-margin-right: $f-dropdown-margin-top !default;
 $f-dropdown-margin-bottom: $f-dropdown-margin-top !default;
 
 // We use this to control the background color
-$f-dropdown-bg: $white !default;
+$f-dropdown-bg: white !default;
 
 // We use this to set the border styles for dropdowns.
 $f-dropdown-border-style: solid !default;
 $f-dropdown-border-width: 1px !default;
-$f-dropdown-border-color: scale-color($white, $lightness: -20%) !default;
+$f-dropdown-border-color: scale-color(white, $lightness: -20%) !default;
 
 // We use these to style the triangle pip.
 $f-dropdown-triangle-size: 6px !default;
-$f-dropdown-triangle-color: $white !default;
+$f-dropdown-triangle-color: white !default;
 $f-dropdown-triangle-side-offset: 10px !default;
 
 // We use these to control styles for the list elements.
 $f-dropdown-list-style: none !default;
-$f-dropdown-font-color: $charcoal !default;
+$f-dropdown-font-color: $secondary-color !default;
 $f-dropdown-font-size: rem-calc(14) !default;
 $f-dropdown-list-padding: rem-calc(5, 10) !default;
 $f-dropdown-line-height: rem-calc(18) !default;
-$f-dropdown-list-hover-bg: $smoke !default;
+$f-dropdown-list-hover-bg: $primary-color !default;
 $dropdown-mobile-default-float: 0 !default;
 
 // We use this to control the styles for when the dropdown has custom content.

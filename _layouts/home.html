@@ -1,7 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="{% if page.language == nil %}en{% else %}{{ site.language }}{% endif %}">
 
-  {% include _head.html %}
+    <style type="text/css">
+        /*INCLUDE MAIN CSS FILE*/
+        {% capture criticalcss %}
+            {% include critical.scss %}
+        {% endcapture %}
+        {{ criticalcss | scssify }}
+    </style>
+
+    {% include js %}
+    {% include _head.html %}
 
 
     <body id="page-top" class="index">
@@ -21,13 +30,14 @@
             <!--div class="intro-info"><a href="https://www.facebook.com/pg/ThomasCalvanicoPhotographe" target="_blank">&copy; Thomas Calvanico</a></div-->
         </div>
     </header>
-
-    {% comment %}
-    {% include _speakers.html %}  
-    {% include _speakers_info.html %}
-    {% endcomment %}
     
     {% include _plan.html %}
+
+    {% comment %}{% endcomment %}
+    {% include _speakers.html %}  
+    {% include _speakers_info.html %}
+    
+
     {% include _sponsors.html %}
     {% include _footer.html %}
     {% include js %}

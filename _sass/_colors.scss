@@ -26,13 +26,13 @@ $body-bg: 			#fdfdfd;
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
 ------------------------------------------------------------------- */
 
-$ci-1: #2e86de;
-$ci-6: #222f3e;
+$ci-1: #222f3e;
+$ci-2: #2e86de;
+$ci-3: #4c6a99;		
+$ci-6: #777;
 
-$ci-2: rgba(0, 133, 163, 0.8);		// turquoise
-$ci-3: #EFC94C;		// yellow
-$ci-4: #E27A3F;		// orange
-$ci-5: #DF4949;		// red
+$ci-4: #E27A3F;
+$ci-5: #DF4949;
 $ci-7: #2b2b2b;
 
 
@@ -41,13 +41,33 @@ $ci-7: #2b2b2b;
 ------------------------------------------------------------------- */
 
 $primary-color: $ci-1;
-$secondary-color: $ci-6;
+$secondary-color: $ci-2;
+$tertiary-color: $ci-3;
+$muted-color: $ci-6;
 $alert-color: $ci-5;
-$success-color: $ci-6;
+$success-color: $ci-2;
 $warning-color: $ci-4;
 $info-color: $ci-1;
 
+$light-color: #e1e1e1;
 
+
+/* Timeline colors
+------------------------------------------------------------------- */
+
+$event-background-color: $light-color;
+$event-color: white;
+$inverted-event-background-color: $light-color;
+$inverted-event-color: white;
+
+$date-color: white;
+$date-background-color: $secondary-color;
+$inverted-date-color: white;
+$inverted-date-background-color: $secondary-color;
+
+$line-color: $light-color;
+$circle-color: $secondary-color;
+$circle-border-color: $secondary-color;
 
 /* Grey Scale
 ------------------------------------------------------------------- */

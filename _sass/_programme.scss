@@ -1,0 +1,68 @@
+@import "colors";
+@import "fonts";
+
+.programme {
+    margin: 10px 0px;
+    font-family: $primary-font;
+    .days {
+        padding: 0;
+        width: 100%;
+        .programme-jour {
+            display: inline-block;
+            width: 20%;
+            padding: 0px;
+            cursor: pointer;
+            background: white;
+            color: $light-color;
+            border: 1px solid $light-color;
+            padding: 5px 10px;
+            margin: 2%;
+            text-align: center;
+            &.active {
+                background: $primary-color;
+                color: white;
+                border: 2px solid $primary-color;
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+        }
+    }
+    .timeline {
+        &.show {
+            display: block;
+        }
+        &.hide {
+            display: none;
+        }
+    }
+}
+
+session-title {
+    color: $primary-color;
+    display: block;
+    text-transform: uppercase;
+    font-family: $primary-font;
+    font-weight: bolder;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+session-room {
+    color: red;
+    display: block;
+    font-family: $primary-font;
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+session-info {
+    display: block;
+    color: $muted-color;
+    margin-top: 1.5em;
+    font-family: $secondary-font;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 19px;
+}
