@@ -7,6 +7,8 @@ published: true
 conference: jfpc
 ---
 
+Les résumés et articles doivent être soumis sur [EasyChair](https://easychair.org/my/conference?conf=jfpc2020).
+
 Une soumission peut être :
   - un article long : 10 pages,
   - un article court : 4 pages<sup>[1](#n1){:.fnref #ref1}</sup>,

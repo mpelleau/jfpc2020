@@ -2,7 +2,7 @@
 layout: page
 show_meta: false
 permalink: agenda/
-title: Programme
+title: Programmes
 published: true
 ---
 
