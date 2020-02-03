@@ -27,6 +27,7 @@
     max-width: 20%; 
     min-width: auto !important; 
     max-height: 100px;
+    margin: 20px;
 }
 
 html {
