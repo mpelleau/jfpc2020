@@ -16,6 +16,19 @@
     --fsecondary: {{ site.data.template.font.secondary }};
 }
 
+.sponsor-img {
+    max-width: 100%; 
+    min-width: auto !important; 
+    width: auto !important;
+    max-height: 150px;
+}
+
+.small {
+    max-width: 20%; 
+    min-width: auto !important; 
+    max-height: 100px;
+}
+
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

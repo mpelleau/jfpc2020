@@ -12,12 +12,16 @@
   img: uns.png
 #  website: http://unice.fr/
   alt: Université Nice Sophia-Antipolis
-  
 
 - name: AFPC
   img: afpc.png
   website: http://afpc.greyc.fr/web/
   alt: Association Française pour la Programmation par Contraintes
+
+- name: Cosling
+  img: cosling.png
+  website: https://www.cosling.com/fr
+  alt: Cosling - Microservices d'optimisation sous contraintes
 
 #- name: Name
 #  img: TBD.jpg
