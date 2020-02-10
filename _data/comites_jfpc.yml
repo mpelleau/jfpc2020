@@ -7,12 +7,20 @@
       institution: Université Côte d'Azur
       website: http://i3s.unice.fr/~mpelleau/
   autre:
-    - name: 
-      institution: 
-      website: 
-    - name: 
-      institution: 
-      website: 
+    - name: Samvel Balassanian Dersarkissian
+      institution: Université Côte d'Azur
+    - name: Arthur Finkelstein
+      institution: Instant System, Université Côte d'Azur      
+    - name: Rémi Garcia
+      institution: Université Côte d'Azur      
+    - name: Nicolas Isoart
+      institution: Université Côte d'Azur      
+    - name: Laetitia Laversa
+      institution: Université Côte d'Azur      
+    - name: Jean-Charles Régin
+      institution: Université Côte d'Azur
+    - name: Sara Riva
+      institution: Université Côte d'Azur
 
 - type: "scientifique"
   presidence:
