@@ -49,11 +49,13 @@
                             </div>
                         </li>
                             
+                        {% comment %}
                         {% assign r = forloop.index | modulo: 3 %}
                         {% if r == 0 %}
                     </ul>
                     <ul class="bulletinfo">
                         {% endif %}
+                        {% endcomment %}
                     {% endfor %}
                     </ul>
                 </div>

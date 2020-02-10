@@ -56,7 +56,7 @@ body {
     width: 100%;
     overflow-x: hidden;
     font-family: var(--fsecondary);
-    color: var(--tertiary);
+    color: var(--primary);
 }
 
 @media screen and (max-width : 1200px){
@@ -583,12 +583,15 @@ header .intro-info {
 
 .bulletinfo {
     list-style: none;
-    display: table;
+    text-align: center;
+	margin: 0 auto;
 }
 
 .bulletinfo li {
-    float: left;
-    padding: 5px 10px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
 }
 
 .bulletinfo li .bulletinfo-image.conf {
@@ -622,7 +625,7 @@ header .intro-info {
     .bulletinfo {
         margin: 0 auto;
     }
-
+    
     .bulletinfo li {
         min-height: 100px;
         padding: 5px 50px;
@@ -637,7 +640,7 @@ header .intro-info {
 @media(min-width:992px) {
     .bulletinfo li {
         min-height: 150px;
-        padding: 10px 75px;
+        padding: 10px 70px;
     }
 
     .bulletinfo li .bulletinfo-image {
@@ -649,7 +652,7 @@ header .intro-info {
 @media(min-width:1200px) {
     .bulletinfo li {
         min-height: 170px;
-        padding: 10px 85px;
+        padding: 10px 80px;
     }
 
     .bulletinfo li .bulletinfo-image {
@@ -658,174 +661,6 @@ header .intro-info {
     }
 }  
 
-/*
-.bulletinfo:before {
-    content: "";
-    background-color: var(--light);
-}
-
-.bulletinfo>li:before,
-.bulletinfo>li:after {
-    content: " ";
-    display: table;
-}
-
-.bulletinfo>li:after {
-    clear: both;
-}
-
-.bulletinfo>li .bulletinfo-panel {
-    position: relative;
-    width: 100%;
-    padding: 0 20px 0 100px;
-    text-align: left;
-}
-
-.bulletinfo>li .bulletinfo-panel:before {
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-.bulletinfo>li .bulletinfo-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
-
-
-.bulletinfo>li .bulletinfo-image h4 {
-    margin-top: 12px;
-    font-size: 100%;
-    line-height: 14px;
-}
-
-.bulletinfo>li.bulletinfo-inverted>.bulletinfo-panel {
-    float: right;
-    padding: 0 20px 0 100px;
-    text-align: left;
-}
-
-.bulletinfo>li.bulletinfo-inverted>.bulletinfo-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-.bulletinfo>li.bulletinfo-inverted>.bulletinfo-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
-
-.bulletinfo>li:last-child {
-    margin-bottom: 0;
-}
-
-.bulletinfo .bulletinfo-heading h4 {
-    margin-top: 0;
-    color: inherit;
-}
-
-.bulletinfo .bulletinfo-heading h4.subheading {
-    text-transform: none;
-}
-
-.bulletinfo .bulletinfo-body>p,
-.bulletinfo .bulletinfo-body>ul {
-    margin-bottom: 0;
-}
-
-@media(min-width:768px) {
-    .bulletinfo:before {
-        left: 50%;
-    }
-
-    .bulletinfo>li {
-        margin-bottom: 100px;
-        min-height: 100px;
-    }
-
-    .bulletinfo>li .bulletinfo-panel {
-        float: left;
-        width: 41%;
-        padding: 0 20px 20px 30px;
-        text-align: right;
-    }
-
-    .bulletinfo>li .bulletinfo-image {
-        left: 50%;
-        width: 100px;
-        height: 100px;
-        margin-left: -50px;
-    }
-
-    .bulletinfo>li .bulletinfo-image h4 {
-        margin-top: 16px;
-        font-size: 100%;
-        line-height: 18px;
-    }
-
-    .bulletinfo>li.bulletinfo-inverted>.bulletinfo-panel {
-        float: right;
-        padding: 0 30px 20px 20px;
-        text-align: left;
-    }
-}
-
-@media(min-width:992px) {
-    .bulletinfo>li {
-        min-height: 150px;
-    }
-
-    .bulletinfo>li .bulletinfo-panel {
-        padding: 0 20px 20px;
-    }
-
-    .bulletinfo>li .bulletinfo-image {
-        width: 150px;
-        height: 150px;
-        margin-left: -75px;
-    }
-
-    .bulletinfo>li .bulletinfo-image h4 {
-        margin-top: 30px;
-        font-size: 100%;
-        line-height: 26px;
-    }
-
-    .bulletinfo>li.bulletinfo-inverted>.bulletinfo-panel {
-        padding: 0 20px 20px;
-    }
-}
-
-@media(min-width:1200px) {
-    .bulletinfo>li {
-        min-height: 170px;
-    }
-
-    .bulletinfo>li .bulletinfo-panel {
-        padding: 0 20px 20px 10px;
-    }
-
-    .bulletinfo>li .bulletinfo-image {
-        width: 170px;
-        height: 170px;
-        margin-left: -85px;
-    }
-
-    .bulletinfo>li .bulletinfo-image h4 {
-        margin-top: 40px;
-    }
-
-    .bulletinfo>li.bulletinfo-inverted>.bulletinfo-panel {
-        padding: 0 10px 20px 20px;
-    }
-}  
-*/
 /********************************************************************************/
 /*********************************** Sections ***********************************/
 /********************************************************************************/

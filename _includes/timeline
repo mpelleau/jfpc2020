@@ -13,7 +13,7 @@
         <div class="timeline-panel">
             <div class="tl-heading">
                 <session-title>{{ date.title }}</session-title>
-                {% if date.info -%}<session-room style="color: var(--primary);">{{ date.info }}</session-room>{% endif %}
+                {% if date.info -%}<session-room style="color: var(--muted);">{{ date.info }}</session-room>{% endif %}
             </div>
         </div>
         <div class="timeline-date">
