@@ -509,6 +509,7 @@ ul.home {
     list-style-type: none;
     float: right;
     padding: 0;
+    padding-top: 20vh;
 }
 
 ul.home li {
@@ -581,25 +582,86 @@ header .intro-info {
 /********************************************************************************/
 
 .bulletinfo {
-    position: relative;
-    padding: 0;
     list-style: none;
+    display: table;
 }
 
+.bulletinfo li {
+    float: left;
+    padding: 5px 10px;
+}
+
+.bulletinfo li .bulletinfo-image.conf {
+    background-color: var(--secondary);
+}
+
+.bulletinfo li .bulletinfo-panel.conf h4 {
+    color: var(--secondary);
+}
+
+.bulletinfo li .bulletinfo-image {
+    width: 80px;
+    height: 80px;
+    border: 7px solid var(--light);
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+    background-color: var(--tertiary);
+}
+
+.bulletinfo li .bulletinfo-panel h4 {
+    margin-top: 12px;
+    font-size: 100%;
+    line-height: 14px;
+    color: var(--tertiary);
+    text-align: center;
+}
+
+
+@media(min-width:768px) {
+    .bulletinfo {
+        margin: 0 auto;
+    }
+
+    .bulletinfo li {
+        min-height: 100px;
+        padding: 5px 50px;
+    }
+
+    .bulletinfo li .bulletinfo-image {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media(min-width:992px) {
+    .bulletinfo li {
+        min-height: 150px;
+        padding: 10px 75px;
+    }
+
+    .bulletinfo li .bulletinfo-image {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media(min-width:1200px) {
+    .bulletinfo li {
+        min-height: 170px;
+        padding: 10px 85px;
+    }
+
+    .bulletinfo li .bulletinfo-image {
+        width: 170px;
+        height: 170px;
+    }
+}  
+
+/*
 .bulletinfo:before {
     content: "";
-    position: absolute;
-    top: 0;
-    left: 40px;
-    width: 2px;
-    margin-left: -1.5px;
     background-color: var(--light);
-}
-
-.bulletinfo>li {
-    position: relative;
-    margin-bottom: 50px;
-    min-height: 50px;
 }
 
 .bulletinfo>li:before,
@@ -613,7 +675,6 @@ header .intro-info {
 }
 
 .bulletinfo>li .bulletinfo-panel {
-    float: right;
     position: relative;
     width: 100%;
     padding: 0 20px 0 100px;
@@ -621,7 +682,6 @@ header .intro-info {
 }
 
 .bulletinfo>li .bulletinfo-panel:before {
-    right: auto;
     left: -15px;
     border-right-width: 15px;
     border-left-width: 0;
@@ -634,19 +694,6 @@ header .intro-info {
     border-left-width: 0;
 }
 
-.bulletinfo>li .bulletinfo-image {
-    z-index: 100;
-    position: absolute;
-    left: 0;
-    width: 80px;
-    height: 80px;
-    margin-left: 0;
-    border: 7px solid var(--light);
-    border-radius: 100%;
-    text-align: center;
-    color: white;
-    background-color: var(--tertiary);
-}
 
 .bulletinfo>li .bulletinfo-image h4 {
     margin-top: 12px;
@@ -778,7 +825,7 @@ header .intro-info {
         padding: 0 10px 20px 20px;
     }
 }  
-
+*/
 /********************************************************************************/
 /*********************************** Sections ***********************************/
 /********************************************************************************/

@@ -15,13 +15,27 @@
 
     <body id="page-top" class="index">
 
-    {% include navigation_bar navigation = site.data.navigation_home home = true %}
+        {% if page.conference == "jfpc" %} 
+            {% include navigation_bar navigation = site.data.navigation_jfpc home = true %}
+        {% elsif page.conference == "jiaf" %}
+            {% include navigation_bar navigation = site.data.navigation_jiaf home = true %}
+        {% else %}
+            {% include navigation_bar navigation = site.data.navigation home = true %} 
+        {% endif %}
 
     <!-- Header -->
+    {% if page.image %}
+    <header class = "image" style="background-image: url('{{ site.url | append:site.baseurl }}/images/{{ page.image }}');">
+    {% else %}
     <header class = "image" style="background-image: url('{{ site.url | append:site.baseurl }}/images/header-home.jpg');">
+    {% endif %}
         <div class="container">
             <div class="intro-text">
-                <div class="intro-heading">{{ site.title }}</div>
+                {% if page.title %}
+                    <div class="intro-heading">{{ page.title }}</div>
+                {% else %}
+                    <div class="intro-heading">{{ site.title }}</div>
+                {% endif %}
                 <ul class="home">
                     <li><a class="btn btn-xl" href="{{ site.url | append:site.baseurl }}/inscription">INSCRIPTION</a></li>
                     <li><div class="intro-lead-in">{{ site.date }}<br>{{ site.location }}</div></li>
@@ -31,7 +45,14 @@
         </div>
     </header>
     
-    {% include _plan.html %}
+    {% if page.conference == "jfpc" %} 
+        {% include _plan.html links = site.data.sitemap_jfpc style = "conf" %}
+    {% elsif page.conference == "jiaf" %}
+        {% include _plan.html links = site.data.sitemap_jiaf style = "conf" %}
+    {% else %}
+        {% include _plan.html links = site.data.sitemap %}
+    {% endif %}
+    
 
     {% comment %}{% endcomment %}
     {% include _speakers.html %}  
