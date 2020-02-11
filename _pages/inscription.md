@@ -12,7 +12,7 @@ Afficher ici la procédure pour les inscriptions ainsi que les tarifs
 ## Inscription en ligne
 Les inscriptions ne sont pas encore ouvertes.
 
-## Tarifs
+## Tarifs (provisoires)
 Les tarifs sont les mêmes pour les conférences JFPC et JIAF.
 
 |            | PRÉFÉRENTIEL   | MAJORÉ            | SUR PLACE         |

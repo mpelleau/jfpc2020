@@ -23,9 +23,9 @@
   website: https://www.cosling.com/fr
   alt: Cosling - Microservices d'optimisation sous contraintes
 
-#- name: Name
-#  img: TBD.jpg
-#  website: Website
+- name: INRIA
+  img: inria.png
+  website: https://www.inria.fr/fr/centre-inria-sophia-antipolis-mediterranee
 #
 #- name: Name
 #  img: TBD.jpg

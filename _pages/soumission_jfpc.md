@@ -2,10 +2,12 @@
 layout: page
 show_meta: false
 permalink: jfpc/soumission/
-title: Soumission
+title: Soumission 
 published: true
 conference: jfpc
 ---
+
+L'appel à communications est [ici](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=99297).
 
 Les résumés et articles doivent être soumis sur [EasyChair](https://easychair.org/my/conference?conf=jfpc2020).
 
