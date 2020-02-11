@@ -584,6 +584,7 @@ header .intro-info {
 .bulletinfo {
     list-style: none;
     text-align: center;
+    padding: 0;
 	margin: 0 auto;
 }
 
@@ -592,6 +593,8 @@ header .intro-info {
     display: inline-block;
     text-align: center;
     padding: 5px;
+    max-width: 33%;
+    vertical-align: top;
 }
 
 .bulletinfo li .bulletinfo-image.conf {
@@ -610,6 +613,7 @@ header .intro-info {
     text-align: center;
     color: white;
     background-color: var(--tertiary);
+	margin: 0 auto;
 }
 
 .bulletinfo li .bulletinfo-panel h4 {
