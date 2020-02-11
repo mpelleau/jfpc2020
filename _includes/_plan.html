@@ -7,15 +7,37 @@
                 <div class="col-lg-12 text-center">
 
                 {% if page.conference == "jfpc" %} 
-                    <h2 class="section-heading">Plus d'infos pour JFPC 2020</h2>
+                    <h2 class="section-heading">Plus d'infos sur JFPC 2020</h2>
                 {% elsif page.conference == "jiaf" %}
-                    <h2 class="section-heading">Plus d'infos pour JIAF 2020</h2>
+                    <h2 class="section-heading">Plus d'infos sur JIAF 2020</h2>
                 {% else %}
                     <h2 class="section-heading">Plus d'infos</h2>
-                    <h3 class="section-subheading text-muted">Sur ce site vous trouverez deux sous-sites, celui pour les 
-                        <a href="{{ site.url | append:site.baseurl }}/jfpc">JFPC</a> et celui pour les 
-                        <a href="{{ site.url | append:site.baseurl }}/jiaf">JIAF</a>. 
-                        Vous pouvez à tout moment revenir sur la page d'accueil en cliquant sur le logo dans la barre de navigation.</h3>
+                    <ul class="bulletinfo">
+                        <li>
+                            <div class="bulletinfo-image">
+                                <a href="{{ site.url | append:site.baseurl }}/jfpc">JFPC
+                                    <img class="img-circle img-responsive" src="{{ site.url | append:site.baseurl }}/assets/img/jfpc.png" alt="">
+                                </a>
+                            </div>
+                            <div class="bulletinfo-panel">
+                                <div class="bulletinfo-heading">
+                                    <h4>JFPC 2020</h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bulletinfo-image">
+                                <a href="{{ site.url | append:site.baseurl }}/jiaf">
+                                    <img class="img-circle img-responsive" src="{{ site.url | append:site.baseurl }}/assets/img/jiaf.png" alt="">
+                                </a>
+                            </div>
+                            <div class="bulletinfo-panel">
+                                <div class="bulletinfo-heading">
+                                    <h4>JIAF 2020</h4>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 {% endif %}
                 </div>
             </div>

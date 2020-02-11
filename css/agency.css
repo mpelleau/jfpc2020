@@ -601,6 +601,10 @@ header .intro-info {
     background-color: var(--secondary);
 }
 
+.bulletinfo li .bulletinfo-image.conf:hover {
+    background-color: var(--tertiary);
+}
+
 .bulletinfo li .bulletinfo-panel.conf h4 {
     color: var(--secondary);
 }
@@ -614,6 +618,10 @@ header .intro-info {
     color: white;
     background-color: var(--tertiary);
 	margin: 0 auto;
+}
+
+.bulletinfo li .bulletinfo-image:hover {
+    background-color: var(--secondary);
 }
 
 .bulletinfo li .bulletinfo-panel h4 {
