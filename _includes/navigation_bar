@@ -43,7 +43,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li class="hidden">
-                    <a href="{{ site.url | append:site.baseurl }}"></a>
+                    <a href="{{ site.url | append:site.baseurl }}/"></a>
                 </li>
                 {% for link in navigation %}
                     {% if link.url contains 'http' %}
