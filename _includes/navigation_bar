@@ -34,7 +34,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="{{ site.url | append:site.baseurl }}">
+            <a class="navbar-brand page-scroll" href="{{ site.url | append:site.baseurl }}/">
                 <img src="{{ site.url | append:site.baseurl }}/favicon.png" class="navbar-brand-style" alt="icon-about">
             </a>
         </div>
