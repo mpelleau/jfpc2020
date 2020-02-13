@@ -21,7 +21,7 @@ Les journées sont composées d'exposés de synthèse, permettant à la communau
 Les auteurs sont invités à soumettre des propositions d’articles de 6 à 10 pages maximum. Des articles soumis par ailleurs à des conférences internationales sont bienvenus. Des articles courts, supports à des démonstrations, sont également bienvenus.
 
 
-Les résumés et articles doivent être soumis sur [EasyChair](https://easychair.org/my/conference?conf=jiaf2020).
+Les résumés et articles doivent être soumis sur [EasyChair](https://easychair.org/conferences/?conf=jiaf2020).
 
 L'archive des [Consignes aux auteurs]({% include link-asset asset="styleJIAF2020.zip" %}) contient la classe LaTeX JIAF ainsi qu'un document d'exemple détaillant toutes les recommandations.
 
