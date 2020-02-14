@@ -2,12 +2,12 @@
 layout: page
 show_meta: false
 permalink: about/
-title: About the conference
+title: À propos de la colocalisation JFPC/JIAF
 published: true
 ---
 
 
-## Theme 
+## Thème 
 
 Cet événement réunit dans un seul lieu deux colloques francophones qui couvrent, de manière complémentaire, différents aspects de l’Intelligence Artificielle.
 
