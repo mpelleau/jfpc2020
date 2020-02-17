@@ -16,6 +16,22 @@
     --fsecondary: {{ site.data.template.font.secondary }};
 }
 
+.sponsors {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+	margin: auto;
+    vertical-align: middle;
+}
+
+.sponsors li {
+    height: 200px;
+    position: relative;
+    display: inline;
+    text-align: center;
+    padding: 20px;
+}
+
 .sponsor-img {
     max-width: 100%; 
     min-width: auto !important; 
@@ -159,7 +175,7 @@ h4 {
 }
 
 .img-centered {
-    margin: 0 auto;
+    margin: auto;
     min-width: 100px;
 }
 
