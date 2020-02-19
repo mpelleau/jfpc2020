@@ -1,7 +1,9 @@
-- title: Soumission du résumé
+- title: Soumission du résumé 
+  plus: <a href="https://easychair.org/my/conference?conf=jfpc2020" style="float:right"><i class="fas fa-upload"></i></a>
   date: 13 mars 2020
 
-- title: Soumission de l'article
+- title: Soumission de l'article 
+  plus: <a href="https://easychair.org/my/conference?conf=jfpc2020" style="float:right"><i class="fas fa-upload"></i></a>
   date: 20 mars 2020
 
 - title: Retour des relecteurs
@@ -14,3 +16,6 @@
 - title: Soumission de l'article 
   info: en version finale
   date: 4 mai 2020
+
+- title: Conférence JFPC 2020 à Nice
+  date: 2-5 juin 2020

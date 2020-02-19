@@ -3,7 +3,7 @@
 
 {% for membre in members -%}
   {%- if membre.website %} 
-  - [{{ membre.name }}]({{ membre.website }}) {% if membre.institution != nil %}({{ membre.institution }}) {% endif %}
+  - [{{ membre.name }}]({{ membre.website }}){:target="_blank"} {% if membre.institution != nil %}({{ membre.institution }}) {% endif %}
   {%- else %} 
   - {{ membre.name }} {% if membre.institution != nil %}({{ membre.institution }}) {% endif %}
   {%- endif -%}

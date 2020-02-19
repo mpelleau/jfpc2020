@@ -22,4 +22,4 @@ published: true
 {% include list_members members = comite.presidence %}
 {% endfor %}
 
-Les comités détaillés pour les JFPC se trouvent [ici]({{ site.baseurl }}/jfpc/comites), et ceux pour les JIAF est [ici]({{ site.baseurl }}/jiaf/comites)
+Les comités détaillés pour les JFPC se trouvent [ici]({{ site.baseurl }}/jfpc/comites/), et ceux pour les JIAF est [ici]({{ site.baseurl }}/jiaf/comites/)

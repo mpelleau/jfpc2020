@@ -16,6 +16,22 @@
     --fsecondary: {{ site.data.template.font.secondary }};
 }
 
+.sponsors {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+	margin: auto;
+    vertical-align: middle;
+}
+
+.sponsors li {
+    height: 200px;
+    position: relative;
+    display: inline;
+    text-align: center;
+    padding: 20px;
+}
+
 .sponsor-img {
     max-width: 100%; 
     min-width: auto !important; 
@@ -56,7 +72,7 @@ body {
     width: 100%;
     overflow-x: hidden;
     font-family: var(--fsecondary);
-    color: var(--tertiary);
+    color: var(--primary);
 }
 
 @media screen and (max-width : 1200px){
@@ -159,7 +175,7 @@ h4 {
 }
 
 .img-centered {
-    margin: 0 auto;
+    margin: auto;
     min-width: 100px;
 }
 
@@ -509,6 +525,7 @@ ul.home {
     list-style-type: none;
     float: right;
     padding: 0;
+    padding-top: 20vh;
 }
 
 ul.home li {
@@ -581,201 +598,94 @@ header .intro-info {
 /********************************************************************************/
 
 .bulletinfo {
-    position: relative;
-    padding: 0;
     list-style: none;
+    text-align: center;
+    padding: 0;
+	margin: 0 auto;
 }
 
-.bulletinfo:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 40px;
-    width: 2px;
-    margin-left: -1.5px;
-    background-color: var(--light);
-}
-
-.bulletinfo>li {
+.bulletinfo li {
     position: relative;
-    margin-bottom: 50px;
-    min-height: 50px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    max-width: 33%;
+    vertical-align: top;
 }
 
-.bulletinfo>li:before,
-.bulletinfo>li:after {
-    content: " ";
-    display: table;
+.bulletinfo li .bulletinfo-image.conf {
+    background-color: var(--secondary);
 }
 
-.bulletinfo>li:after {
-    clear: both;
+.bulletinfo li .bulletinfo-image.conf:hover {
+    background-color: var(--tertiary);
 }
 
-.bulletinfo>li .bulletinfo-panel {
-    float: right;
-    position: relative;
-    width: 100%;
-    padding: 0 20px 0 100px;
-    text-align: left;
+.bulletinfo li .bulletinfo-panel.conf h4 {
+    color: var(--secondary);
 }
 
-.bulletinfo>li .bulletinfo-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-.bulletinfo>li .bulletinfo-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
-
-.bulletinfo>li .bulletinfo-image {
-    z-index: 100;
-    position: absolute;
-    left: 0;
+.bulletinfo li .bulletinfo-image {
     width: 80px;
     height: 80px;
-    margin-left: 0;
     border: 7px solid var(--light);
     border-radius: 100%;
     text-align: center;
     color: white;
     background-color: var(--tertiary);
+	margin: 0 auto;
 }
 
-.bulletinfo>li .bulletinfo-image h4 {
+.bulletinfo li .bulletinfo-image:hover {
+    background-color: var(--secondary);
+}
+
+.bulletinfo li .bulletinfo-panel h4 {
     margin-top: 12px;
     font-size: 100%;
     line-height: 14px;
+    color: var(--tertiary);
+    text-align: center;
 }
 
-.bulletinfo>li.bulletinfo-inverted>.bulletinfo-panel {
-    float: right;
-    padding: 0 20px 0 100px;
-    text-align: left;
-}
-
-.bulletinfo>li.bulletinfo-inverted>.bulletinfo-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-.bulletinfo>li.bulletinfo-inverted>.bulletinfo-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
-
-.bulletinfo>li:last-child {
-    margin-bottom: 0;
-}
-
-.bulletinfo .bulletinfo-heading h4 {
-    margin-top: 0;
-    color: inherit;
-}
-
-.bulletinfo .bulletinfo-heading h4.subheading {
-    text-transform: none;
-}
-
-.bulletinfo .bulletinfo-body>p,
-.bulletinfo .bulletinfo-body>ul {
-    margin-bottom: 0;
-}
 
 @media(min-width:768px) {
-    .bulletinfo:before {
-        left: 50%;
+    .bulletinfo {
+        margin: 0 auto;
     }
-
-    .bulletinfo>li {
-        margin-bottom: 100px;
+    
+    .bulletinfo li {
         min-height: 100px;
+        padding: 5px 50px;
     }
 
-    .bulletinfo>li .bulletinfo-panel {
-        float: left;
-        width: 41%;
-        padding: 0 20px 20px 30px;
-        text-align: right;
-    }
-
-    .bulletinfo>li .bulletinfo-image {
-        left: 50%;
+    .bulletinfo li .bulletinfo-image {
         width: 100px;
         height: 100px;
-        margin-left: -50px;
-    }
-
-    .bulletinfo>li .bulletinfo-image h4 {
-        margin-top: 16px;
-        font-size: 100%;
-        line-height: 18px;
-    }
-
-    .bulletinfo>li.bulletinfo-inverted>.bulletinfo-panel {
-        float: right;
-        padding: 0 30px 20px 20px;
-        text-align: left;
     }
 }
 
 @media(min-width:992px) {
-    .bulletinfo>li {
+    .bulletinfo li {
         min-height: 150px;
+        padding: 10px 70px;
     }
 
-    .bulletinfo>li .bulletinfo-panel {
-        padding: 0 20px 20px;
-    }
-
-    .bulletinfo>li .bulletinfo-image {
+    .bulletinfo li .bulletinfo-image {
         width: 150px;
         height: 150px;
-        margin-left: -75px;
-    }
-
-    .bulletinfo>li .bulletinfo-image h4 {
-        margin-top: 30px;
-        font-size: 100%;
-        line-height: 26px;
-    }
-
-    .bulletinfo>li.bulletinfo-inverted>.bulletinfo-panel {
-        padding: 0 20px 20px;
     }
 }
 
 @media(min-width:1200px) {
-    .bulletinfo>li {
+    .bulletinfo li {
         min-height: 170px;
+        padding: 10px 80px;
     }
 
-    .bulletinfo>li .bulletinfo-panel {
-        padding: 0 20px 20px 10px;
-    }
-
-    .bulletinfo>li .bulletinfo-image {
+    .bulletinfo li .bulletinfo-image {
         width: 170px;
         height: 170px;
-        margin-left: -85px;
-    }
-
-    .bulletinfo>li .bulletinfo-image h4 {
-        margin-top: 40px;
-    }
-
-    .bulletinfo>li.bulletinfo-inverted>.bulletinfo-panel {
-        padding: 0 10px 20px 20px;
     }
 }  
 
@@ -819,7 +729,6 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/css/2016_style/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
