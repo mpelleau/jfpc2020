@@ -22,10 +22,15 @@
   website: http://afpc.greyc.fr/web/
   alt: Association Française pour la Programmation par Contraintes
 
-- name: AFIA
-  img: afia.png
-  website: https://afia.asso.fr/
-  alt: Association Française pour l'Intelligence Artificielle
+- name: GDR IA
+  img: gdria.png
+  website: https://www.gdria.fr/
+  alt: Groupe de Recherche en Intelligence Artificielle
+
+#- name: AFIA
+#  img: afia.png
+#  website: https://afia.asso.fr/
+#  alt: Association Française pour l'Intelligence Artificielle
 
 - name: Cosling
   img: cosling.png
