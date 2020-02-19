@@ -26,6 +26,7 @@
   img: gdria.png
   website: https://www.gdria.fr/
   alt: Groupe de Recherche en Intelligence Artificielle
+  style: "background: url(/jfpc_jiaf_2020/images/sponsor/gdria-fond.png); background-size: contain;"
 
 #- name: AFIA
 #  img: afia.png

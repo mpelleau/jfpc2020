@@ -12,7 +12,7 @@
                 {% for post in site.data.sponsors %}
                     <li class="col-md-4 col-sm-6">
                         <a href="{{ post.website }}" class="portfolio-link" data-toggle="modal" target="_blank">
-                            <img src="{{ site.url | append:site.baseurl }}/images/sponsor/{{ post.img }}" class="sponsor-img img-responsive img-centered" alt="{{ post.alt }}">
+                            <img src="{{ site.url | append:site.baseurl }}/images/sponsor/{{ post.img }}" class="sponsor-img img-responsive img-centered" alt="{{ post.alt }}" style="{{ post.style }}">
                         </a>
                     </li>
                 {% endfor %}
