@@ -6,13 +6,6 @@
     - name: Andrea Tettamanzi
       institution: Université Côte d'Azur
       website: http://www.i3s.unice.fr/~tettaman/
-  autre:
-    - name: 
-      institution: 
-      website: 
-    - name: 
-      institution: 
-      website: 
 
 - type: "scientifique"
   presidence:
@@ -24,62 +17,62 @@
       website: https://sites.google.com/view/sylviedoutre/welcome
   autre:
     - name: Francesco Belardinelli
-      institution: (IBISC, Université d'Évry)
+      institution: IBISC, Université d'Évry
       website: 
     - name: Elise Bonzon 
-      institution: (LIPADE, Université Paris Decartes)
+      institution: LIPADE, Université Paris Decartes
       website: 
     - name: Tristan Cazenave 
-      institution: (LAMSADE, Université Paris Dauphine)
+      institution: LAMSADE, Université Paris Dauphine
       website: 
     - name: Nadia Creignou 
-      institution: (LIS, Aix-Marseille Université)
+      institution: LIS, Aix-Marseille Université
       website: 
     - name: Tiago de Lima
-      institution:  (CRIL, Lens)
+      institution:  CRIL, Lens
       website:
     - name: Jérôme Euzenat
-      institution:  (LIG, INRIA)
+      institution:  LIG, INRIA
       website: 
     - name: George Katsirelos
-      institution:  (MIAT, INRA)
+      institution:  MIAT, INRA
       website: 
     - name: Sébastien Konieczny
-      institution:  (CRIL, CNRS)
+      institution:  CRIL, CNRS
       website: 
     - name: Jérôme Lang
-      institution:  (LAMSADE, Université Paris Dauphine)
+      institution:  LAMSADE, Université Paris Dauphine
       website: 
     - name: Jean Lieber
-      institution:  (LORIA, INRIA)
+      institution:  LORIA, INRIA
       website: 
     - name: Pierre Marquis
-      institution:  (CRIL, Université d'Artois)
+      institution:  CRIL, Université d'Artois
       website: 
     - name: Marie-Laure Mugnier
-      institution:  (LIRMM, Université de Montpellier)
+      institution:  LIRMM, Université de Montpellier
       website: 
     - name: Amedeo Napoli
-      institution:  (LORIA, CNRS)
+      institution:  LORIA, CNRS
       website:
     - name: Odile Papini
-      institution:  (LIS, Aix-Marseille Université)
+      institution:  LIS, Aix-Marseille Université
       website: 
     - name: Laurent Perrussel
-      institution:  (IRIT, Universite Toulouse 1 Capitole)
+      institution:  IRIT, Universite Toulouse 1 Capitole
       website: 
     - name: Sophie Pinchinat
-      institution:   (IRISA, INRIA)
+      institution:   IRISA, INRIA
       website:
     - name: Stéphanie Roussel 
-      institution: (ONERA)
+      institution: ONERA
       website: 
     - name: Serena Villata
-      institution:  (I3S, CNRS)
+      institution:  I3S, CNRS
       website: 
     - name: Christel Vrain
-      institution:  (LIFO, Université d'Orléans)
+      institution:  LIFO, Université d'Orléans
       website: 
     - name: Bruno Zanuttini 
-      institution: (GREYC, UNICAEN)
+      institution: GREYC, UNICAEN
       website: 
