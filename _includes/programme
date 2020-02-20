@@ -34,7 +34,7 @@
                     <div class="tl-heading">
                         <session-title>{{ session.title }}</session-title>
                         {% if session.room %}<session-room>{{ session.room }}</session-room>{% endif %}
-                        {% if session.chair %}<session-chair>Animée par {{ session.chair }}</session-chair>{% endif %}
+                        {% if session.chair %}<session-chair>Animée par <session-chair-name>{{ session.chair }}</session-chair-name></session-chair>{% endif %}
                         {% if session.info %}<session-info>{{ session.info }}</session-info>{% endif %}
                         {% if session.talks %}
                         <ul class = "talks">

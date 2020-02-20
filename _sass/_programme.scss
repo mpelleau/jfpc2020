@@ -42,6 +42,7 @@
     li {
         position: relative;
         padding: 0;
+        list-style-type: disc;
         &before, &::after {
             content: " ";
             display: table;
@@ -85,10 +86,16 @@ session-chair {
     display: block;
     color: $muted-color;
     font-family: $primary-font;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 17px;
     line-height: 25px;
 }
+
+session-chair-name {
+    font-weight: bold;
+    color: $secondary-color;
+}
+
 session-talk-title {
     display: block;
     color: $secondary-color;
