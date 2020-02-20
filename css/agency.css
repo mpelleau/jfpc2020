@@ -42,7 +42,7 @@
 .small {
     max-width: 20%; 
     min-width: auto !important; 
-    max-height: 100px;
+    max-height: 75px;
     margin: 20px;
 }
 

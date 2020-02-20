@@ -38,6 +38,20 @@
     }
 }
 
+.talks {
+    li {
+        position: relative;
+        padding: 0;
+        &before, &::after {
+            content: " ";
+            display: table;
+        }
+        &::after {
+            clear: both;
+        }
+    }
+}
+
 session-title {
     color: $primary-color;
     display: block;
@@ -61,6 +75,32 @@ session-info {
     display: block;
     color: $muted-color;
     margin-top: 1.5em;
+    font-family: $secondary-font;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+session-chair {
+    display: block;
+    color: $muted-color;
+    font-family: $primary-font;
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 25px;
+}
+session-talk-title {
+    display: block;
+    color: $secondary-color;
+    font-family: $secondary-font;
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+session-talk {
+    display: block;
+    color: $primary-color;
     font-family: $secondary-font;
     font-weight: lighter;
     font-size: 14px;
