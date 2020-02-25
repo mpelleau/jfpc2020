@@ -26,7 +26,7 @@ Les deux colloques sont francophones, mais ils attirent une audience internation
 Ces conférences se veulent un lieu convivial de rencontres, de discussions et d’échanges pour la communauté francophone, en particulier entre doctorants, chercheurs confirmés et industriels.
 D'ailleurs, les frais d’inscription des deux colloques sont toujours peu élevés pour que le plus grand nombre d’étudiants et de doctorants puissent y participer.
 
-Plusieurs partenaires locaux s’associeront à cette colocalisation : l'Université Côte d’Azur ; le laboratoire I3S, INRIA.
+Plusieurs partenaires locaux s’associeront à cette colocalisation : l'Université Côte d’Azur, le laboratoire I3S, INRIA.
 Ces conférences reçoivent régulièrement le soutien de partenaires industriels situés en France. 
 Cette année, nous rechercherons aussi le soutien d’entreprises situées dans la technopole Sophia Antipolis.
 
@@ -35,7 +35,7 @@ Les actes des deux conférences seront rendus disponibles en accès ouvert : les
 ## Grands axes du programme
 
 Plusieurs sessions thématiques et exposés invités, les assemblées générales d'associations scientifiques, et deux événements sociaux seront proposés.
-Les sessions thématiques sont simplement des séries d'exposés correspondant aux articles acceptées par le comité de programme et qui seront publiés dans les actes de la conférence.
+Les sessions thématiques sont simplement des séries d'exposés correspondant aux articles acceptés par le comité de programme et qui seront publiés dans les actes de la conférence.
 Deux ou trois chercheurs renommés de la communauté francophones présentent leurs travaux lors des exposés invités.
 
 
