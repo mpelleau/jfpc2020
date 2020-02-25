@@ -1,8 +1,12 @@
 ---
-layout: page
+layout: page_image
+show_meta: false
 permalink: booklet/
 title: Quelques adresses
 published: true
+image: header-chaises2.jpg
+copyright: Thomas Calvanico
+website: https://www.facebook.com/pg/ThomasCalvanicoPhotographe
 ---
 
 <br>
