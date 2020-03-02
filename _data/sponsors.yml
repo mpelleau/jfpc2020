@@ -37,6 +37,12 @@
   img: cosling.png
   website: https://www.cosling.com/fr
   alt: Cosling - Microservices d'optimisation sous contraintes
+
+- name: Doriane
+  img: doriane.jpg
+  website: https://www.doriane.com/
+  alt: Doriane - Research Software & Consulting
+
 #
 #- name: Name
 #  img: TBD.jpg
