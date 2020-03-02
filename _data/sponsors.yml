@@ -22,6 +22,16 @@
   website: http://afpc.greyc.fr/web/
   alt: Association Française pour la Programmation par Contraintes
 
+- name: GDR RO
+  img: gdrro.png
+  website: http://gdrro.lip6.fr/
+  alt: GDR Recherche Opérationnelle
+
+- name: Doriane
+  img: doriane.png
+  website: https://www.doriane.com/
+  alt: Doriane - Research Software & Consulting
+
 - name: GDR IA
   img: gdria.png
   website: https://www.gdria.fr/
@@ -37,11 +47,6 @@
   img: cosling.png
   website: https://www.cosling.com/fr
   alt: Cosling - Microservices d'optimisation sous contraintes
-
-- name: Doriane
-  img: doriane.png
-  website: https://www.doriane.com/
-  alt: Doriane - Research Software & Consulting
 
 #
 #- name: Name
