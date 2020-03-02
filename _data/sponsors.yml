@@ -13,10 +13,6 @@
   website: http://i3s.unice.fr/
   alt: Laboratoire d'Informatique, Signaux et Systèmes de Sophia Antipolis
 
-- name: INRIA
-  img: inria.png
-  website: https://www.inria.fr/fr/centre-inria-sophia-antipolis-mediterranee
-
 - name: AFPC
   img: afpc.png
   website: http://afpc.greyc.fr/web/
@@ -26,6 +22,10 @@
   img: gdrro.png
   website: http://gdrro.lip6.fr/
   alt: GDR Recherche Opérationnelle
+
+- name: INRIA
+  img: inria.png
+  website: https://www.inria.fr/fr/centre-inria-sophia-antipolis-mediterranee
 
 - name: Doriane
   img: doriane.png
