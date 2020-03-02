@@ -15,11 +15,5 @@ $(document).ready(function() {
             .addClass("hide");
         
         $("div[id='"+id+"']").removeClass("hide").addClass("show");
-
-        var test = $("#"+id);
-        var tmp = $("div[id='"+id+"']");
-
-        console.log("#"+id);
-
 	});
 });
