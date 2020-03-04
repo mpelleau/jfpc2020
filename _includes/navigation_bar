@@ -10,19 +10,21 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll confs">
             <ul>
-            {% for link in navigation %}
-                {% if link.url contains 'http' %}
-                    {% assign domain = '' %}
-                {% elsif link.url == '#' %}
-                    {% assign domain = site.baseurl | append:"/" %}
-                {% else %}
-                    {% assign domain = site.url | append:site.baseurl %}
-                {% endif %}
+            {% assign pagelink = page.permalink | split:'/' %}
+            {% assign pagelinkfirst = pagelink.first | append:'/' %}
+            {% assign pageurl = pagelink | shift | array_to_sentence_string:'/' %}
 
-                {% if link.side == 'lleft' %}
-                    <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}>
-                        <a {% if link.class %}class="{{link.class}}"{% else %}class="inactive"{% endif %} href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
-                    </li>
+            {% assign links = navigation | where: "side","lleft" %}
+            {% for link in links %}
+                {% assign domain = site.url | append:site.baseurl | append:'/' %}
+
+                {% assign url = link.url %}
+                {% if pagelinkfirst != link.url %}
+                    {% assign url = url | append:pageurl | append:'/' %}
+                    {% assign url = url | replace:'//','/' %}
+                    <li><a class="inactive" href="{{ domain | append:url }}">{{ link.title | escape }}</a></li>
+                {% else %}
+                    <li><a class="active" href="{{ domain | append:url }}">{{ link.title | escape }}</a></li>
                 {% endif %}
             {% endfor %}
             </ul>
@@ -45,40 +47,42 @@
                 <li class="hidden">
                     <a href="{{ site.url | append:site.baseurl }}/"></a>
                 </li>
-                {% for link in navigation %}
+                {% assign links = navigation | where: "side","right" %}
+                {% for link in links %}
                     {% if link.url contains 'http' %}
                         {% assign domain = '' %}
                     {% elsif link.url == '#' %}
-                        {% assign domain = site.baseurl | append:"/" %}
+                        {% assign domain = site.baseurl | append:'/' %}
                     {% else %}
-                        {% assign domain = site.url | append:site.baseurl %}
+                        {% assign domain = site.url | append:site.baseurl | append:'/' %}
                     {% endif %}
 
-                    {% if link.side == 'right' %}
-                        <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}>
-                            <a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
-                        </li>
-                    {% endif %}
+                    {% assign url = link.url %}
+                    {% assign tmp = url | prepend:'/' %}
+                    <li{% if tmp == page.url %} class="active" {% endif %}>
+                        <a href="{{ domain | append:url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
+                    </li>
                 {% endfor %}
             </ul>
             <ul class="nav navbar-nav navbar-left">
                 <li class="hidden">
                     <a href="/"></a>
                 </li>
-                {% for link in navigation %}
+                {% assign links = navigation | where: "side","left" %}
+                {% for link in links %}
                     {% if link.url contains 'http' %}
                         {% assign domain = '' %}
                     {% elsif link.url == '#' %}
-                        {% assign domain = site.baseurl | append:"/" %}
+                        {% assign domain = site.baseurl | append:'/' %}
                     {% else %}
-                        {% assign domain = site.url | append:site.baseurl %}
+                        {% assign domain = site.url | append:site.baseurl | append:'/' %}
                     {% endif %}
 
-                    {% if link.side == 'left' %}
-                        <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}>
-                            <a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
-                        </li>
-                    {% endif %}
+                    {% assign url = link.url | prepend:'/' | prepend:page.conference %}
+                    {% assign tmp = url | prepend:'/' %}
+                    <li{% if tmp == page.url %} class="active" {% endif %}>
+                        <a href="{{ domain | append:url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
+                    </li>
                 {% endfor %}
             </ul>
         </div>

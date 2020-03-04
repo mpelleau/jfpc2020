@@ -1,33 +1,33 @@
 
 - title: "JFPC"
-  url: "/jfpc/"
+  url: "jfpc/"
   side: right
   
 - title: "JIAF"
-  url: "/jiaf/"
+  url: "jiaf/"
   side: right
 
 - title: "Inscription"
-  url: "/inscription/"
+  url: "inscription/"
   side: right
 
 - title: "À propos"
-  url: "/about/"
+  url: "about/"
   side: right
 
 - title: "Programmes"
-  url: "/agenda/"
+  url: "agenda/"
   side: right
 
 - title: "Comités"
-  url: "/team/"
+  url: "team/"
   side: right
 
 - title: "Nice"
-  url: "/venue/"
+  url: "venue/"
   side: right
 
 - title: "Soutiens"
-  url: "/sponsors/"
+  url: "sponsors/"
   side: right
 

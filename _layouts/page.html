@@ -13,10 +13,8 @@
   {% include _head.html %}
   
   <body>
-    {% if page.conference == "jfpc" %} 
-        {% include navigation_bar navigation = site.data.navigation_jfpc %}
-    {% elsif page.conference == "jiaf" %}
-        {% include navigation_bar navigation = site.data.navigation_jiaf %}
+    {% if page.conference %} 
+        {% include navigation_bar navigation = site.data.navigation_conf link = page.link %}
     {% else %}
         {% include navigation_bar navigation = site.data.navigation %}
     {% endif %}

@@ -15,10 +15,8 @@
 
     <body id="page-top" class="index">
 
-        {% if page.conference == "jfpc" %} 
-            {% include navigation_bar navigation = site.data.navigation_jfpc home = true %}
-        {% elsif page.conference == "jiaf" %}
-            {% include navigation_bar navigation = site.data.navigation_jiaf home = true %}
+        {% if page.conference %} 
+            {% include navigation_bar navigation = site.data.navigation_conf home = true %}
         {% else %}
             {% include navigation_bar navigation = site.data.navigation home = true %} 
         {% endif %}

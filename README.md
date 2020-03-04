@@ -15,10 +15,18 @@ bundle exec jekyll serve --config _config.yml,_config_dev.yml
 ```
 qui va générer le site (dans le dossier `_site` par défaut) et faire un serveur local afin de pouvoir voir le site à l'adresse [http://localhost:4000](http://localhost:4000).
 
+## Types de pages
+
+Il y a 4 types de pages possibles et se trouvent dans le dossier `_layout/` :
+  - pour les pages d'accueil `_layout/home.html`
+  - pour les pages " normales " `_layout/page.html`
+  - pour les pages avec une image en entête `_layout/page-image.html`
+  - pour les pages vides sans barre de navigation `_layout/page-empty.html`
+
 ## Description des fichiers
 
 Il y a certaines pages communes :
-  - la page d'accueil `_layout/home.html`,
+  - la page d'accueil `index.html`,
   - le programme général avec les dates importantes `_pages/agenda.md`,
   - les présidences des différents comités `_pages/comites.md`,
   - les informations et tarifs pour les inscirptions `_pages/inscription.md`,
@@ -41,7 +49,7 @@ Les fichiers de données se trouvent dans le dossier `_data`.
   - `comites_jfpc.yml` et `comites_jiaf.yml` contiennent les membres de chacun des comités ;
   - `dates_jfpc.yml` et `dates_jiaf.yml` contiennent les dates importantes ;
   - `editions_jfpc.yml` et `editions_jiaf.yml` contiennent des liens vers les précédentes éditions ;
-  - `navigation_home.yml`, `navigation.yml`, `navigation_jfpc.yml` et `navigation_jiaf.yml` contiennent les éléments que l'on souhaite voir apparaître dans la barre de navigation pour respectivement, la page d'accueil commune, les pages communes, les pages pour les JFPC et les pages pour les JIAF ;
+  - `navigation_home.yml`, `navigation.yml` et `navigation_conf.yml` contiennent les éléments que l'on souhaite voir apparaître dans la barre de navigation pour respectivement, la page d'accueil commune, les pages communes, les pages pour les conferences ;
   - `programme_jfpc.yml` et `programme_jiaf.yml` contiennent les programme détaillés ;
   - `sitemap.yml`, `sitemap_jfpc.yml` et `sitemap_jiaf.yml` contiennent les éléments de la catégorie _plus d'infos_ de la page d'accueil commune, de JFPC et JIAF ;
   - `speakers.yml` contient des informations sur les conférenciers invités qui figureront sur la page d'accueil ;
