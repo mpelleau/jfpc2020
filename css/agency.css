@@ -25,25 +25,25 @@
 }
 
 .sponsors li {
-    height: 200px;
     position: relative;
     display: inline;
     text-align: center;
-    padding: 20px;
+    padding: 1.755%;
+    height: 10em;
 }
 
 .sponsor-img {
     max-width: 100%; 
     min-width: auto !important; 
     width: auto !important;
-    max-height: 150px;
+    max-height: 7em;
 }
 
 .small {
     max-width: 20%; 
     min-width: auto !important; 
-    max-height: 75px;
-    margin: 20px;
+    max-height: 37.5%;
+    margin: 1.755%;
 }
 
 html {
@@ -169,6 +169,19 @@ h4 {
 }
 
 @media (min-width: 992px) {
+    .col-md-4 {
+        width: 33.33333333%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-sm-3 {
+        width: 25%;
+        height: 5em;
+    }
+}
+
+@media (max-width: 767px) {
     .col-md-4 {
         width: 33.33333333%;
     }
