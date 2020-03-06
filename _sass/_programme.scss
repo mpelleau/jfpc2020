@@ -43,6 +43,7 @@
         position: relative;
         padding: 0;
         list-style-type: disc;
+        color: $tertiary-color;
         &before, &::after {
             content: " ";
             display: table;
@@ -98,7 +99,7 @@ session-chair-name {
 
 session-talk-title {
     display: block;
-    color: $secondary-color;
+    color: $tertiary-color;
     font-family: $secondary-font;
     font-weight: lighter;
     font-size: 17px;

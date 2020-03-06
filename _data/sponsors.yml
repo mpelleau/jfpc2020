@@ -13,6 +13,11 @@
   website: http://i3s.unice.fr/
   alt: Laboratoire d'Informatique, Signaux et Systèmes de Sophia Antipolis
 
+- name: Huawei
+  img: huawei.png
+  website: https://www.huawei.com/fr/
+  alt: Huawei Technologies Co. Ltd.
+
 - name: AFPC
   img: afpc.png
   website: http://afpc.greyc.fr/web/
@@ -31,6 +36,11 @@
   img: doriane.png
   website: https://www.doriane.com/
   alt: Doriane - Research Software & Consulting
+
+- name: Michelin
+  img: michelin.png
+  website: https://www.michelin.fr/
+  alt: Michelin France - Pneus et services pour une mobilité durable
 
 - name: GDR IA
   img: gdria.png
