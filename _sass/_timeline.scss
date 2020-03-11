@@ -125,6 +125,11 @@
     }
 }
 
+tl-old {
+    text-decoration: line-through;
+    font-size: .9em;
+}
+
 /** media queries **/
 @media (max-width: 992px) {
     .timeline {
