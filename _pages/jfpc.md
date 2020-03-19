@@ -2,7 +2,7 @@
 layout: home
 show_meta: false
 permalink: jfpc/
-title: "JOURNÉES FRANCOPHONES<br>de PROGRAMMATION par CONTRAINTES"
+title: "JOURNÉES FRANCOPHONES <br>de PROGRAMMATION par CONTRAINTES"
 shorttitle: "JFPC 2020"
 published: true
 conference: jfpc
