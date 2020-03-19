@@ -1,9 +1,9 @@
-title: "JOURNÉES FRANCOPHONES<br>de PROGRAMMATION par CONTRAINTES<br><p class='subtitle'>et d’INTELLIGENCE ARTIFICIELLE FONDAMENTALE</p>"
+title: "JOURNÉES FRANCOPHONES <br>de PROGRAMMATION par CONTRAINTES <br><p class='subtitle'>et d’INTELLIGENCE ARTIFICIELLE FONDAMENTALE</p>"
 shorttitle: "JFPC & JIAF"
 date: "Du 2 au 5 juin 2020"
-location: "NICE<br>CAMPUS TROTABAS"
+location: "NICE <br>CAMPUS TROTABAS"
 description: > # this means to ignore newlines until "baseurl:"
-    "JFPC 2020 et JIAF 2020 du 2 au 5 juin à Nice"
+    "JFPC et JIAF du 2 au 5 juin 2020 à Nice"
 baseurl: "/jfpc_jiaf_2020" # the subpath of your site, e.g. /blog
 url: "http://i3s.unice.fr"
 
