@@ -365,6 +365,18 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+.alert {
+    border-color: red;
+    background-color: red;
+}
+
+.alert:hover,
+.alert:focus,
+.alert:active {
+    border-color: red;
+    background-color: #800;
+}
+
 
 /********************************************************************************/
 /****************************** Barre de Navigation *****************************/
