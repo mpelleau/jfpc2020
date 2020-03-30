@@ -38,9 +38,12 @@
                     {% if page.conference == "jfpc" %}
                     <li><a class="btn btn-xl alert" style="font-size:2.5rem">REPORTÉES à JUIN 2021</a></li>
                     <li><div class="intro-lead-in"><tl-old>{{ site.date }}</tl-old><br>{{ site.location }}</div></li>
+                    {% elsif page.conference == "jiaf" %}
+                    <li><a class="btn btn-xl alert" href="http://pfia2020.fr/jiaf-2020/" style="font-size:2.5rem">REJOINT PFIA 2020</a></li>
+                    <li><div class="intro-lead-in"><tl-old>{{ site.date }}</tl-old><br>{{ site.location }}</div></li>
                     {% else %}
-                    <li><a class="btn btn-xl" href="{{ site.url | append:site.baseurl }}/inscription/">INSCRIPTION</a></li>
-                    <li><div class="intro-lead-in">{{ site.date }}<br>{{ site.location }}</div></li>
+                    <li><a class="btn btn-xl alert" style="font-size:2.5rem">JFPC REPORTÉES à JUIN 2021</a></li>
+                    <li><a class="btn btn-xl alert" href="http://pfia2020.fr/jiaf-2020/" style="font-size:2.5rem">JIAF REJOINT PFIA 2020</a></li>
                     {% endif %}
                 </ul>
             </div>
